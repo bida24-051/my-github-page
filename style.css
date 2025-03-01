@@ -16,34 +16,28 @@
 
 <body>
 
+body {
+
 font-family: Arial, sans-serif;
 
-color: #FF0000;
+color: #333;
 
-background-color:#f9f9f9 ;
+background-color: #f9f9f9;
 
 margin: 0;
 
 padding: 0;
 
 line-height: 1.6;
-  
 
-</body>
+}
 
+>/body>
 
 
 <header>
 
-</nav>
- 
-<a href="index.html">Home</a> |
-
-<a href="about.html">About</a> |
-
-<a href="contact.html">Contact</a>
-
-</nav>
+header {
 
 background-color: #4CAF50;
 
@@ -51,8 +45,9 @@ color: white;
 
 padding: 20px;
 
-text-align:center;
+text-align: center;
 
+}
 
 
 header h1 {
@@ -75,7 +70,7 @@ margin: 0 10px;
 
 nav a:hover {
 
-text-decoration: underline
+text-decoration: underline;
 
 }
 
@@ -156,8 +151,6 @@ margin: 20px 0;
 }
 
 </main>
-
-
 
 <footer>
 
