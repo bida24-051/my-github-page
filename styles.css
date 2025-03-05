@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: #0000FF;
+    color: ##000000;
     background-color: #808080;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #808080;
-    color: Blue;
+    color: black;
     padding: 20px;
     text-align: center;>Centered Heading</h1>
 }
