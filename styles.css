@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: #F4F4F9;
+    color: ##000000;
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
@@ -60,7 +60,7 @@ p {
 }
 
 a {
-    color: #4CAF50;
+    color: #000000;
     text-decoration: none;
 }
 
