@@ -72,3 +72,10 @@ img {
     border: 5px solid #FF5733 ;
     border-radius: 10px;
 }
+
+    main a[href^="mailto:"] {
+    color: #ff5722;
+    font-weight: bold;
+}
+________________________________________
+
