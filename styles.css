@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     color: ##000000;
-    background-color: #808080;
+    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 header {
-    background-color: #808080;
-    color: black;
+    background-color:#f4f4f9 ;
+    color: #333333;
     padding: 20px;
     text-align: center;>Centered Heading</h1>
 }
