@@ -20,7 +20,7 @@ header h1 {
 
 /* Navigation links */
 nav a {
-    color: white;
+    color:#000000 ;
     text-decoration: none;
     margin: 0 10px;
 }
