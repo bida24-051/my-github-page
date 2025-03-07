@@ -18,7 +18,7 @@ header h1 {
     margin: 0;
 }
 
-/* Navigation links */
+
 nav a {
     color:#000000 ;
     text-decoration: none;
@@ -36,12 +36,32 @@ main {
     margin: 0 auto;
 }
 
-main img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+
+* Flexbox to align images and text side by side */
+.game-container {
+    display: flex;
+    align-items: center;
+    background-color: #666;  /* Slightly darker background for each section */
+    padding: 10px;
+    border-radius: 10px;
     margin: 20px 0;
 }
+
+/* Styling for images */
+.game-container img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styling for text next to images */
+.game-info {
+    margin-left: 20px;
+    text-align: right;
+    color: white;
+}
+
+    
 footer {
     background-color: #333;
     color: white;
