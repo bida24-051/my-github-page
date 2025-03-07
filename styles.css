@@ -57,7 +57,7 @@ main {
 /* Styling for text next to images */
 .game-info {
     margin-left: 20px;
-    text-align: right;
+    text-align: left;
     color: white;
 }
 
