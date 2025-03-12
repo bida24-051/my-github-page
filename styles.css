@@ -54,18 +54,6 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-}
-
-
-* Flexbox to align images and text side by side */
-.game-container {
-    display: flex;
-    align-items: center;
-    background-color: #808080;  /* Slightly darker background for each section */
-    padding: 10px;
-    border-radius: 10px;
-    margin: 20px 0;
-}
 
 /* Styling for images */
 .game-container img {
