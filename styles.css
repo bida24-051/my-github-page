@@ -1,12 +1,13 @@
+   
 body {
     font-family: Arial, sans-serif;
     color: #000000;
-    background-color: #808080!important;
+    background: url('your-image.jpg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
-
 header {
     background-color:#808080 ;
     color: BLUE;
