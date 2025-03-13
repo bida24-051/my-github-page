@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,24 @@
     <title>Games Room - O'Brian Game Studio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .games-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px; /* Adjust the space between the images */
+        }
+
+        .game-card {
+            width: 200px; /* Set a fixed width for each game card */
+            text-align: center;
+        }
+
+        .game-card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -36,36 +54,93 @@
             <h1>Explore Our Games</h1>
             <p>Dive into the world of amazing games developed by O'Brian Game Studio.</p>
 
-            <!-- Game 1 -->
-            <div class="game-card mb-4">
-                <img src="https://raw.githubusercontent.com/bida24-051/my-github-page/refs/heads/main/91f55ab9e79e1853fa1094bcd9cbe88ea6ddba474675c75d.avif" alt="Game 1" class="img-fluid">
-                <h3>FC 25</h3>
-                <p>A futuristic sports game that combines strategy and action.</p>
-                <a href="play-fc25.html" class="btn btn-primary">Play Now</a>
-            </div>
+            <!-- Game Cards in a Horizontal Layout -->
+            <div class="games-container">
+                <!-- Game 1 -->
+                <div class="game-card">
+                    <img src="game1-thumbnail.jpg" alt="Game 1" class="img-fluid">
+                    <h3>FC 25</h3>
+                    <p>A futuristic sports game that combines strategy and action.</p>
+                    <a href="play-fc25.html" class="btn btn-primary">Play Now</a>
+                </div>
 
-            <!-- Game 2 -->
-            <div class="game-card mb-4">
-                <img src="game2-thumbnail.jpg" alt="Game 2" class="img-fluid">
-                <h3>Adventure Quest</h3>
-                <p>Embark on a thrilling adventure through magical worlds.</p>
-                <a href="play-adventure-quest.html" class="btn btn-primary">Play Now</a>
-            </div>
+                <!-- Game 2 -->
+                <div class="game-card">
+                    <img src="game2-thumbnail.jpg" alt="Game 2" class="img-fluid">
+                    <h3>Adventure Quest</h3>
+                    <p>Embark on a thrilling adventure through magical worlds.</p>
+                    <a href="play-adventure-quest.html" class="btn btn-primary">Play Now</a>
+                </div>
 
-            <!-- Game 3 -->
-            <div class="game-card mb-4">
-                <img src="game3-thumbnail.jpg" alt="Game 3" class="img-fluid">
-                <h3>Battle Arena</h3>
-                <p>A fast-paced multiplayer battle game that tests your skills.</p>
-                <a href="play-battle-arena.html" class="btn btn-primary">Play Now</a>
-            </div>
+                <!-- Game 3 -->
+                <div class="game-card">
+                    <img src="game3-thumbnail.jpg" alt="Game 3" class="img-fluid">
+                    <h3>Battle Arena</h3>
+                    <p>A fast-paced multiplayer battle game that tests your skills.</p>
+                    <a href="play-battle-arena.html" class="btn btn-primary">Play Now</a>
+                </div>
 
-            <!-- Game 4 -->
-            <div class="game-card mb-4">
-                <img src="game4-thumbnail.jpg" alt="Game 4" class="img-fluid">
-                <h3>Zombie Survival</h3>
-                <p>Survive the apocalypse in this thrilling zombie survival game.</p>
-                <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+                <!-- Game 4 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 4" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+
+                    <!-- Game 5 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 5" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+<!-- Game 6 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 6" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+<!-- Game 7 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 7" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+
+                    
+<!-- Game 8 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 8" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+<!-- Game 9 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 9" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+<!-- Game 10 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 10" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+<!-- Game 11 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 11" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                   <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+               
+                    <!-- Game 12 -->
+                <div class="game-card">
+                    <img src="game4-thumbnail.jpg" alt="Game 12" class="img-fluid">
+                    <h3>Zombie Survival</h3>
+                    <p>Survive the apocalypse in this thrilling zombie survival game.</p>
+                    <a href="play-zombie-survival.html" class="btn btn-primary">Play Now</a>
+
+                    
+                </div>
             </div>
 
             <!-- Add more games as needed -->
