@@ -1,14 +1,16 @@
-
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
-   
+
+
+.home-page {
+    background: url('KE BATLA E NNA BACKGROUND.webp') no-repeat center center fixed;
+    background-size: cover;
+}
 
 header {
 
