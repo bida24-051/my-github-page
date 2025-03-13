@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 20s linear infinite;
+    animation: backgroundSlide 30s linear infinite;
 }
 
 @keyframes backgroundSlide {
@@ -23,8 +23,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #808080;
+    color: blue;
     padding: 20px;
     text-align: center;
 }
