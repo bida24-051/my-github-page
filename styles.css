@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 5s linear infinite;
+    animation: backgroundSlide 15s linear infinite;
 }
 
 @keyframes backgroundSlide {
