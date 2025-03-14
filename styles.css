@@ -26,8 +26,10 @@ body {
 .games-room {
     min-height: 100vh; /* Ensures the section covers the full viewport height */
     padding: 50px 0; /* Adds spacing */
-    background color: Black; /* Adjust text color if needed */
+    background-color: black; /* Sets a solid black background */
+    color: white; /* Ensures text is visible */
 }
+
 
 header {
     background-color: #808080;
