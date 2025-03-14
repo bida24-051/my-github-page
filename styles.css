@@ -34,64 +34,6 @@ body {
     justify-content: center;
 }
 
-.about-us {
-    min-height: 100vh;
-    padding: 50px 0;
-    background-color: #D3D3D3;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-/* Managers section update - Removing card styles */
-.managers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.manager {
-    width: 80%;
-    max-width: 600px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-}
-.manager img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.manager-info {
-    text-align: left;
-}
-
-.manager h5 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #000;
-}
-
-.manager p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #555;
-}
-
-}
-
-
-
 
 /* Header styling */
 header {
@@ -103,7 +45,7 @@ header {
 
 header h1 {
     margin: 0;
-    background-color: purple;
+    background-color: blue;
 }
 
 /* Navigation styling */
