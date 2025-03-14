@@ -5,7 +5,9 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-:after {
+
+/* Preload images to prevent white flash */
+body::after {
     content: "";
     position: absolute;
     width: 0;
@@ -17,6 +19,24 @@ body {
                 url('maxresdefault.jpg'), 
                 url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif');
 }
+
+/* Home page background animation */
+.home-page {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: backgroundSlide 30s linear infinite;
+}
+
+@keyframes backgroundSlide {
+    0% { background: url('DALL·E 2025-03-13 20.44.40.webp') no-repeat center center/cover; }
+    33% { background: url('R.jfif') no-repeat center center/cover; }
+    66% { background: url('maxresdefault.jpg') no-repeat center center/cover; }
+    100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover; }
+}
+
 
 .home-page {
     width: 100%;
