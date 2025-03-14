@@ -26,10 +26,12 @@ body {
 .games-room {
     min-height: 100vh; /* Ensures the section covers the full viewport height */
     padding: 50px 0; /* Adds spacing */
-    background-color: black; /* Sets a solid black background */
+    background-color: black !important; /* Forces a black background */
     color: white; /* Ensures text is visible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 header {
     background-color: #808080;
@@ -82,19 +84,11 @@ main img {
         }
 
         .game-card img {
-            width: 200%;
+            width: 100%;
             height: 100%;
             object-fit: cover; /* Crops images to fit nicely */
             border-radius: 10px; /* Rounded edges (optional) */
         }
-
-
-}
-
-
-
-
-
 
 
 
