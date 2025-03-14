@@ -103,10 +103,12 @@ main img {
 
 footer {
     background-color: #333;
-    color: Blue;
+    color: blue;
     text-align: center;
-    padding: 10px;
+    padding: 5px 0; /* Reduce padding for a smaller footer */
+    font-size: 12px; /* Reduce text size */
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%; /* Ensures the footer spans the full width */
+    margin: 0; /* Ensures no extra spacing */
 }
