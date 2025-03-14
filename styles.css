@@ -69,17 +69,21 @@ main img {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 30px; /* Adjust the space between the images */
+            gap: 50px; 
         }
 
         .game-card {
-            width: 200px; /* Set a fixed width for each game card */
+             width: 140px; 
+            height: 180px;
+            overflow: hidden;
             text-align: center;
         }
 
         .game-card img {
             width: 200%;
             height: 100%;
+            object-fit: cover; /* Crops images to fit nicely */
+            border-radius: 10px; /* Rounded edges (optional) */
         }
 
 
