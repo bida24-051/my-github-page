@@ -54,17 +54,19 @@ body::after {
     100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover;} 
 }
 
-
+/* Apply to both About Us and Games Room */
 .about-us, .games-room {
-    min-height: 100vh;
-    padding: 50px 0;
+    height: 100vh; /* Ensure the section covers the full viewport height */
+    padding: 0; /* Remove extra padding to fill the page */
     background-color: #D3D3D3 !important; /* Light gray background */
     color: black !important; /* Ensure text is visible */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Vertically center content */
 }
 
+/* Header styling */
 header {
     background-color: #808080;
     color: blue;
@@ -72,13 +74,15 @@ header {
     text-align: center;
 }
 
+/* Heading inside the header */
 header h1 {
     margin: 0;
-    background-color: purple; /* Fix incorrect color */
+    background-color: purple; /* Background color for the heading */
 }
 
+/* Navigation styling */
 nav {
-    background-color: blue; /* Change to blue */
+    background-color: blue; /* Blue background for navigation */
     padding: 15px 0; /* Adjust padding for better spacing */
 }
 
@@ -94,8 +98,6 @@ nav a:hover {
     background-color: darkblue; /* Light hover effect */
     border-radius: 5px; /* Optional rounded corners */
 }
-
-
 
 main {
     padding: 20px;
