@@ -99,7 +99,7 @@ main img {
 
 .card {
     width: 200px;  /* Reduce the card width */
-    height: 300;   /* Allow flexible height */
+    height: 200;   /* Allow flexible height */
     padding: 20px;  /* Reduce internal spacing */
     text-align: center;
 }
@@ -120,7 +120,7 @@ main img {
 }
 
 .card-text {
-    font-size: 0.5rem; /* Reduce description size */
+    font-size: 0.9rem; /* Reduce description size */
 }
 
 
