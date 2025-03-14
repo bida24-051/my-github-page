@@ -100,20 +100,20 @@ main img {
 
 .card {
     width: 200px;  /* Reduce the card width */
-    height: auto;   /* Allow flexible height */
-    padding: 10px;  /* Reduce internal spacing */
+    height: 300;   /* Allow flexible height */
+    padding: 20px;  /* Reduce internal spacing */
     text-align: center;
 }
 
 .card-img-top {
-    width: 100%;  /* Make image fit the card */
-    height: 180px; /* Reduce image height */
+    width: 120%;  /* Make image fit the card */
+    height: 200px; /* Reduce image height */
     object-fit: cover;
-    border-radius: 8px 8px 0 0; /* Rounded edges */
+    border-radius: 10px 10px 0 0; /* Rounded edges */
 }
 
 .card-body {
-    padding: 15px;  /* Reduce padding inside the card */
+    padding:205px;  /* Reduce padding inside the card */
 }
 
 .card-title {
@@ -121,7 +121,7 @@ main img {
 }
 
 .card-text {
-    font-size: 0.9rem; /* Reduce description size */
+    font-size: 0.5rem; /* Reduce description size */
 }
 
 
