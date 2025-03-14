@@ -25,11 +25,16 @@ body {
     100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover; }
 }
 
-/* Optional: Preload the images to avoid delay in showing */
-@import url('DALL·E 2025-03-13 20.44.40.webp');
-@import url('R.jfif');
-@import url('maxresdefault.jpg');
-@import url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif');
+.games-room {
+    height: 100vh;
+    padding: 0;
+    background-color: #D3D3D3 !important;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
