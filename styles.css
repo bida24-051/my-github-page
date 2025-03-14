@@ -54,8 +54,7 @@ body::after {
     100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover;} 
 }
 
-/* Apply to both About Us and Games Room */
-.about-us, .games-room {
+ .games-room {
     height: 100vh; /* Ensure the section covers the full viewport height */
     padding: 0; /* Remove extra padding to fill the page */
     background-color: #D3D3D3 !important; /* Light gray background */
@@ -64,6 +63,17 @@ body::after {
     flex-direction: column;
     align-items: center;
     justify-content: center; /* Vertically center content */
+}
+
+.about-us {
+    min-height: 100vh; /* Allow content to grow */
+    padding: 50px 0;
+    background-color: #D3D3D3; /* Light gray background */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Make sure content starts at the top */
 }
 
 /* Header styling */
