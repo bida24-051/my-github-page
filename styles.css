@@ -181,12 +181,12 @@ main img {
 .card-title {
     font-size: 1.2rem; /* Better title size */
     font-weight: bold;
-    color: #FFFFFF; /* Darker text for readability */
+    color: #000000; /* Darker text for readability */
 }
 
 .card-text {
     font-size: 0.9rem; /* Readable description size */
-    color: #FFFFFF; /* Slightly lighter text */
+    color: #000000; /* Slightly lighter text */
 }
 
 ding: 10px 15px; /* Space around each link */
