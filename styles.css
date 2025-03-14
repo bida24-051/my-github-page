@@ -24,30 +24,6 @@ body {
     100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
 }
 
-.games-room {
-    height: 100vh;
-    padding: 0;
-    background-color: #D3D3D3 !important;
-    color: black !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.games-room {
-    height: 100vh;
-    padding: 0;
-    background-color: #D3D3D3 !important;
-    color: black !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
 
 .games-room {
     height: 100vh;
