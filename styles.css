@@ -25,10 +25,10 @@ body {
 
 
 games-room {
-    min-height: 100vh; /* Ensures the section covers the full viewport height */
+    min-height: 100vh;
     padding: 50px 0; /* Adds spacing */
-    background-color: #2b0f54 !important; /* Neon Purple */
-    color: white; /* Ensures text is visible */
+    background-color: black !important; 
+    color: white; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    background-color: blue; /* Light hover effect */
     border-radius: 5px; /* Optional rounded corners */
 }
 
