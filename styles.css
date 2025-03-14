@@ -103,23 +103,23 @@ main img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 25px; /* Space between cards */
+    gap: 10px; /* Space between cards */
     margin: 20px 0;
 }
 
 
 .manager-card {
-    width: 180px; /* Fixed width for cards */
-    height: 250px; /* Fixed height for cards */
+    width: 150px; /* Fixed width for cards */
+    height: 200px; /* Fixed height for cards */
     overflow: hidden; /* Ensures the content inside doesn't overflow */
     text-align: center;
-    border-radius: 10px; /* Optional rounded corners */
+    border-radius: 8px; /* Optional rounded corners */
 }
 
 
 .manager-card img {
     width: 100%; /* Full width of the card */
-    height: 150px; /* Fixed height for images */
+    height: 120px; /* Fixed height for images */
     object-fit: cover; /* Ensures images fill the container without distortion */
     object-position: center; /* Centers the image */
 }
