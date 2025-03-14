@@ -23,16 +23,16 @@ body {
     100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover;} 
 }
 
-.games-room {
+
+games-room {
     min-height: 100vh; /* Ensures the section covers the full viewport height */
     padding: 50px 0; /* Adds spacing */
-    background-color: #0a0a23 !important; /* Forces a black background */
+    background-color: #2b0f54 !important; /* Neon Purple */
     color: white; /* Ensures text is visible */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 header {
     background-color: #808080;
     color: blue;
