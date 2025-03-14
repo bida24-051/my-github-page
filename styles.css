@@ -5,6 +5,18 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    background: url('DALL·E 2025-03-13 20.44.40.webp'), 
+                url('R.jfif'), 
+                url('maxresdefault.jpg'), 
+                url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif');
+}
 
 .home-page {
     width: 100%;
