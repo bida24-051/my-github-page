@@ -97,13 +97,51 @@ main img {
             border-radius: 10px; /* Rounded edges (optional) */
         }
 
-.manager-img {
-    width: 100%;
-    height: 250px; /* Fixed height for equal sizing */
-    object-fit: cover; /* Ensures images fill the area and maintain aspect ratio */
-    border-radius: 10px; /* Optional rounded corners */
+.manager-img-container {
+    width: 100%; /* Full width of the card */
+    height: 250px; /* Fixed height */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Optional rounded corners for the card */
 }
 
+.manager-img {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Maintains aspect ratio and crops if needed */
+    object-position: center; /* Centers the image */
+}
+
+/* Adjust the layout of cards to center the content */
+.card-body {
+    text-align: center;
+}
+
+.card-body .card-title {
+    margin: 10px 0;
+}
+
+.card-body .card-text {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Add some space between manager cards */
+.manager-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Spacing between the cards */
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+/* Ensure cards are responsive */
+@media (max-width: 768px) {
+    .manager-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 
