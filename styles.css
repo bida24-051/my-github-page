@@ -23,10 +23,10 @@ body {
     100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover;} 
 }
 
-.games-room Page{
+.games-room {
     min-height: 100vh; /* Ensures the section covers the full viewport height */
     padding: 50px 0; /* Adds spacing */
-    color: Black; /* Adjust text color if needed */
+    background color: Black; /* Adjust text color if needed */
 }
 
 header {
