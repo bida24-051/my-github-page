@@ -107,13 +107,13 @@ main img {
 
 .card-img-top {
     width: 100%;  /* Make image fit the card */
-    height: 120px; /* Reduce image height */
+    height: 180px; /* Reduce image height */
     object-fit: cover;
-    border-radius: 5px; /* Rounded edges */
+    border-radius: 8px 8px 0 0; /* Rounded edges */
 }
 
 .card-body {
-    padding: 10px;  /* Reduce padding inside the card */
+    padding: 15px;  /* Reduce padding inside the card */
 }
 
 .card-title {
