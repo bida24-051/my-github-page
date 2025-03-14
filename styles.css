@@ -57,7 +57,16 @@ main img {
     height: auto;
     display: block;
     margin: 20px 0;
+.game-card img {
+    width: 200px;  /* Set a fixed width */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images fill the area without distortion */
+    border-radius: 10px; /* Optional: Rounds the edges for a smoother look */
 }
+}
+
+
+
 
 
 footer {
