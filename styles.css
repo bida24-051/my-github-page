@@ -109,8 +109,8 @@ main img {
 
 
 .manager-card {
-    width: 200px; /* Fixed width for cards */
-    height: 300px; /* Fixed height for cards */
+    width: 250px; /* Fixed width for cards */
+    height: 100px; /* Fixed height for cards */
     overflow: hidden; /* Ensures the content inside doesn't overflow */
     text-align: center;
     border-radius: 10px; /* Optional rounded corners */
