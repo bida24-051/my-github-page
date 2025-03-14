@@ -98,7 +98,7 @@ main img {
         }
 
 .card {
-    width: 200px;  /* Reduce the card width */
+    width: 100px;  /* Reduce the card width */
     height: 200;   /* Allow flexible height */
     padding: 20px;  /* Reduce internal spacing */
     text-align: center;
@@ -112,11 +112,11 @@ main img {
 }
 
 .card-body {
-    padding:205px;  /* Reduce padding inside the card */
+    padding:180px;  /* Reduce padding inside the card */
 }
 
 .card-title {
-    font-size: 1rem; /* Reduce title size */
+    font-size: 5rem; /* Reduce title size */
 }
 
 .card-text {
