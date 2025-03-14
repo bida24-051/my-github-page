@@ -97,54 +97,32 @@ main img {
             border-radius: 10px; /* Rounded edges (optional) */
         }
 
-.manager-img-container {
-    width: 100%; /* Full width of the card */
-    height: 250px; /* Fixed height */
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px; /* Optional rounded corners for the card */
-}
 
-.manager-img {
-    width: 100%; /* Full width of the container */
-    height: 100%; /* Full height of the container */
-    object-fit: cover; /* Maintains aspect ratio and crops if needed */
-    object-position: center; /* Centers the image */
-}
 
-/* Adjust the layout of cards to center the content */
-.card-body {
-    text-align: center;
-}
-
-.card-body .card-title {
-    margin: 10px 0;
-}
-
-.card-body .card-text {
-    font-size: 14px;
-    color: #777;
-}
-
-/* Add some space between manager cards */
 .manager-container {
     display: flex;
-    justify-content: space-around;
-    gap: 20px; /* Spacing between the cards */
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
     margin: 20px 0;
 }
 
-/* Ensure cards are responsive */
-@media (max-width: 768px) {
-    .manager-container {
-        flex-direction: column;
-        align-items: center;
-    }
+
+.manager-card {
+    width: 250px; /* Fixed width for cards */
+    height: 350px; /* Fixed height for cards */
+    overflow: hidden; /* Ensures the content inside doesn't overflow */
+    text-align: center;
+    border-radius: 10px; /* Optional rounded corners */
 }
 
 
-
+.manager-card img {
+    width: 100%; /* Full width of the card */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images fill the container without distortion */
+    object-position: center; /* Centers the image */
+}
 
 footer {
     background-color: #333;
