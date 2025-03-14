@@ -6,20 +6,6 @@ body {
     line-height: 1.6;
 }
 
-/* Preload images to prevent white flash */
-body::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    background: url('DALL·E 2025-03-13 20.44.40.webp'), 
-                url('R.jfif'), 
-                url('maxresdefault.jpg'), 
-                url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif');
-}
-
 /* Home page background animation */
 .home-page {
     width: 100%;
@@ -37,49 +23,73 @@ body::after {
     100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover; }
 }
 
-
-.home-page {
-    width: 100%;
+.games-room {
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    animation: backgroundSlide 30s linear infinite;
-}
-
-@keyframes backgroundSlide {
-    0% { background: url('DALL·E 2025-03-13 20.44.40 - A modern gaming room setup with neon lights, gaming consoles, controllers, and a stylish desk. The atmosphere is cozy and creative, with vibrant color.webp') no-repeat center center/cover; }
-    33% { background: url('R.jfif') no-repeat center center/cover;}
-    66% { background: url('maxresdefault.jpg') no-repeat center center/cover;}
-    100% { background: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif') no-repeat center center/cover;} 
-}
-
- .games-room {
-    height: 100vh; /* Ensure the section covers the full viewport height */
-    padding: 0; /* Remove extra padding to fill the page */
-    background-color: #D3D3D3 !important; /* Light gray background */
-    color: black !important; /* Ensure text is visible */
+    padding: 0;
+    background-color: #D3D3D3 !important;
+    color: black !important;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Vertically center content */
+    justify-content: center;
 }
 
 .about-us {
-    min-height: 100vh; /* Allow content to grow */
+    min-height: 100vh;
     padding: 50px 0;
-    background-color: #D3D3D3; /* Light gray background */
+    background-color: #D3D3D3;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Make sure content starts at the top */
-main {
+    justify-content: flex-start;
+    width: 100%;
+/* Managers section update - Removing card styles */
+.managers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 20px;
-    max-width: 1200px; /* Adjust for larger screen */
-    margin: 0 auto;
-    width: 100%;}
 }
+
+.manager {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.manager img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.manager-info {
+    text-align: left;
+}
+
+.manager h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.manager p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+}
+
 
 
 
@@ -91,35 +101,35 @@ header {
     text-align: center;
 }
 
-/* Heading inside the header */
 header h1 {
     margin: 0;
-    background-color: purple; /* Background color for the heading */
+    background-color: purple;
 }
 
 /* Navigation styling */
 nav {
-    background-color: blue; /* Blue background for navigation */
-    padding: 15px 0; /* Adjust padding for better spacing */
+    background-color: blue;
+    padding: 15px 0;
 }
 
 nav a {
-    color: white; /* Ensure text is visible */
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px; /* Space around each link */
+    padding: 10px 15px;
     display: inline-block;
 }
 
 nav a:hover {
-    background-color: darkblue; /* Light hover effect */
-    border-radius: 5px; /* Optional rounded corners */
+    background-color: darkblue;
+    border-radius: 5px;
 }
 
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
 }
 
 main img {
@@ -127,83 +137,37 @@ main img {
     height: auto;
     display: block;
     margin: 20px 0;
-
 }
-        .games-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 50px; 
-        }
 
-        .game-card {
-             width: 140px; 
-            height: 180px;
-            overflow: hidden;
-            text-align: center;
-        }
+.games-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
 
-        .game-card img {
-            width: 120%;
-            height: 100%;
-            object-fit: cover; /* Crops images to fit nicely */
-            border-radius: 10px; /* Rounded edges (optional) */
-        }
-
-
-.card {
-    width: 180px;  /* Moderate card width */
-    height: auto;   /* Flexible height */
-    padding: 10px;  /* Balanced internal spacing */
+.game-card {
+    width: 140px;
+    height: 180px;
+    overflow: hidden;
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
-    background-color: #000000; /* Dark grey background */
-    color: white; /* White text for contrast */
-    border: none; /* Remove borders for a clean look */
-
-
 }
 
-.card-img-top {
-    width: 100%;  /* Make image fit the card */
-    height: 140px; /* Proportional image height */
+.game-card img {
+    width: 120%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 10px 10px 0 0; /* Rounded top corners */
-    filter: brightness(0.9); /* Slightly darken images for consistency */
+    border-radius: 10px;
 }
-
-
-.card-body {
-    
-    padding: 10px;  /* Reduce excessive padding */
-}
-
-.card-title {
-    font-size: 1.2rem; /* Better title size */
-    font-weight: bold;
-    color: #000000; /* Darker text for readability */
-}
-
-.card-text {
-    font-size: 0.9rem; /* Readable description size */
-    color: #000000; /* Slightly lighter text */
-}
-
-ding: 10px 15px; /* Space around each link */
-    display: inline-block;
-}
-
-
-
 
 footer {
     background-color: #333;
     color: blue;
     text-align: center;
-    padding: 5px 0; /* Reduce padding for a smaller footer */
-    font-size: 12px; /* Reduce text size */
+    padding: 5px 0;
+    font-size: 12px;
     position: fixed;
     bottom: 0;
-    width: 100%; /* Ensures the footer spans the full width */
-    margin: 0; /* Ensures no extra spacing */
+    width: 100%;
+    margin: 0;
 }
