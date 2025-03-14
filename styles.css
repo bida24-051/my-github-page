@@ -11,11 +11,10 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url('DALL·E 2025-03-13 20.44.40.webp'); /* Default background */
-    background-color: #000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 30s linear infinite;
+    animation: backgroundSlide 25s linear 1;
 }
 
 @keyframes backgroundSlide {
