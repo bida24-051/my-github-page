@@ -9,7 +9,6 @@ body {
 .home-page {
     width: 100%;
     height: 100vh;
-    background-color: #000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +27,7 @@ games-room {
     min-height: 100vh;
     padding: 50px 0; /* Adds spacing */
     background-color: black !important; 
-    color: white; 
+    color: none; 
     display: flex;
     flex-direction: column;
     align-items: center;
