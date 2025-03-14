@@ -74,7 +74,14 @@ body::after {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Make sure content starts at the top */
+main {
+    padding: 20px;
+    max-width: 1200px; /* Adjust for larger screen */
+    margin: 0 auto;
+    width: 100%;}
 }
+
+
 
 /* Header styling */
 header {
