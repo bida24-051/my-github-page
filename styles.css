@@ -24,18 +24,7 @@ body {
     100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
 }
 
-.hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;  /* Centers content horizontally */
-    height: 80vh;  /* Ensures the hero section takes full viewport height */
-    text-align: center;  /* Centers the text within the hero section */
-    color: white;  /* Ensures text is white */
-    padding: 0 20px;  /* Ensures text isn't too close to the edges */
-    background: none;  /* Removes any background */  
-    font-size: 1.0rem;  /* Makes the paragraph text larger */
-    margin-bottom: 30px;
-    }
+
 
 .games-room {
     height: 100vh;
