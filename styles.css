@@ -120,16 +120,23 @@ body {
 }
 /* Set the background color for the entire page */
 body {
-    background-color: #e3f2fd; /* Change this color to your desired background color */
+    background-color: #12181b; /* Dark theme background */
+    color: white; /* Ensure text is visible */
     margin: 0;
-    font-family: Arial, sans-serif; /* Optional: Set the font family for the page */
+    padding: 0;
+    height: 100vh; /* Ensure it covers the full viewport */
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Ensures content stacks properly */
+    align-items: center; /* Centers content horizontally */
 }
-
-/* Optional: Set the background color for the main content area */
 main {
-    background-color: #e3f2fd; /* Optional: You can change this to a different color for the main content */
-    padding: 20px; /* Add padding around the content */
-    border-radius: 8px; /* Optional: Add rounded corners to the main content area */
+    background-color: transparent; /* Keep the background consistent */
+    width: 100%; /* Ensure it stretches across the page */
+    min-height: 100vh; /* Ensures it fills the screen height */
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
 }
 
 /* Header styling */
