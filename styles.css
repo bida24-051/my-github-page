@@ -1,19 +1,13 @@
-/* General Styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    color: white;
+    color: #333;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #12181b; /* Dark theme background */
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-/* Home Page Background Animation */
+/* Home page background animation */
 .home-page {
     width: 100%;
     height: 100vh;
@@ -23,6 +17,7 @@ body {
     animation: backgroundSlide 25s linear infinite;
 }
 
+/* Animation for background image slideshow with fade effect */
 @keyframes backgroundSlide {
     0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
     33% { background-image: url('R.jfif'); }
@@ -30,61 +25,18 @@ body {
     100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
 }
 
-/* Hero Section */
-.hero-section {
+.games-room {
     height: 100vh;
+    padding: 0;
+    background-color: #D3D3D3 !important;
+    color: black !important;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
 }
 
-.hero-text h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.hero-text p {
-    font-size: 1.2rem;
-}
-
-.btn-custom {
-    background-color: #ff6600;
-    border: none;
-    padding: 12px 24px;
-    font-size: 1.2rem;
-    transition: 0.3s ease-in-out;
-}
-
-.btn-custom:hover {
-    background-color: #cc5500;
-}
-
-/* Navbar Styling */
-nav {
-    background-color: #222;
-    padding: 15px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 30px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 15px;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: darkblue;
-    border-radius: 5px;
-}
-
-/* About Us Section */
+/* Styling for About Us Section */
 .about-us {
     font-family: Arial, sans-serif;
 }
@@ -93,10 +45,11 @@ nav a:hover {
     font-family: Arial, sans-serif;
 }
 
-/* Mission Statement */
+/* Mission Statement Section Styling */
 .mission-statement {
     text-align: center;
-    margin: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .mission-statement h2 {
@@ -110,10 +63,11 @@ nav a:hover {
     margin: 0 auto;
 }
 
-/* Manager Section */
+/* Manager Section Styling */
 .manager-section {
     text-align: center;
-    margin: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .manager-section h2 {
@@ -138,12 +92,16 @@ nav a:hover {
 }
 
 .manager-photo img {
-    width: 300px;
+    width:300px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
+}
+
+.manager-details {
+    max-width: 600px;
 }
 
 .manager-details h3 {
@@ -153,22 +111,65 @@ nav a:hover {
 
 .manager-details p {
     font-size: 16px;
-    color: #bbb;
+    color: #555;
 }
 
-/* Games Room */
-.games-room {
-    height: 100vh;
+/* Set the background color for the entire page */
+body {
+    background-color: #12181b;
+    color: white;
+    margin: 0;
     padding: 0;
-    background-color: #D3D3D3;
-    color: black;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-/* Games Display */
+main {
+    background-color: transparent;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #808080;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    background-color: blue;
+}
+
+nav {
+    background-color: blue;
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: darkblue;
+    border-radius: 5px;
+}
+
 .games-container {
     display: flex;
     justify-content: center;
@@ -190,12 +191,14 @@ nav a:hover {
     border-radius: 10px;
 }
 
-/* Footer */
 footer {
-    background-color: #222;
-    color: white;
+    background-color: #333;
+    color: blue;
     text-align: center;
-    padding: 10px;
-    font-size: 14px;
+    padding: 5px 0;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
+    margin: 0;
 }
