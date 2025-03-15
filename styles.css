@@ -14,7 +14,18 @@ body {
     background-repeat: no-repeat;
     background-color: #000; /* Add this line to set a default background color */
     animation: backgroundSlide 30s linear infinite;
+} 
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns text to the left */
+    padding-left: 5%; /* Adjust this to move text further left */
 }
+
+.hero-text {
+    max-width: 600px; /* Prevents text from spreading too wide */
+}
+
 
 /* Animation for background image slideshow with fade effect */
 @keyframes backgroundSlide {
