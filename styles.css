@@ -62,7 +62,6 @@ body {
     max-width: 800px;
     margin: 0 auto;  /* Center the text inside the container */
 }
-
 /* Manager Section Styling */
 .manager-section {
     text-align: center;  /* Center the heading */
@@ -75,16 +74,35 @@ body {
     margin-bottom: 20px; /* Add spacing below the heading */
 }
 
-.manager-photo {
-    margin-right: 20px;
+/* Container for all manager profiles (to align them horizontally) */
+.manager-profiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
 }
 
+/* Each manager profile styling */
+.manager-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Styling for the manager photo */
 .manager-photo img {
     width: 150px; /* Set the image size */
     height: 150px;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
 }
 
+/* Manager details section */
 .manager-details {
     max-width: 600px;
 }
@@ -96,9 +114,8 @@ body {
 
 .manager-details p {
     font-size: 16px;
+    color: #555;
 }
-
-
 
 /* Header styling */
 header {
