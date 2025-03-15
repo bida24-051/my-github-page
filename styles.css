@@ -7,23 +7,51 @@ body {
 }
 
 
-/* Home page background animation */
+
+/* Home page background container */
 .home-page {
     width: 100%;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Each background layer */
+.bg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    opacity: 0;
     animation: backgroundSlide 30s linear infinite;
 }
 
-/* Animation for background image slideshow with fade effect */
+/* Animation for background images */
 @keyframes backgroundSlide {
-    0%, 100% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); opacity: 1; }
-    33% { background-image: url('R.jfif'); opacity: 1; }
-    66% { background-image: url('maxresdefault.jpg'); opacity: 1; }
-    100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 1;
+    }
+    58% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
