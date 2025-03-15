@@ -147,6 +147,19 @@ body {
     font-size: 16px;
     color: #555;
 }
+/* Set the background color for the entire page */
+body {
+    background-color: #e3f2fd; /* Change this color to your desired background color */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Optional: Set the font family for the page */
+}
+
+/* Optional: Set the background color for the main content area */
+main {
+    background-color: #e3f2fd; /* Optional: You can change this to a different color for the main content */
+    padding: 20px; /* Add padding around the content */
+    border-radius: 8px; /* Optional: Add rounded corners to the main content area */
+}
 
 /* Header styling */
 header {
