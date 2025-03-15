@@ -19,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Aligns text to the left */
-    padding-left: 5%; /* Adjust this to move text further left */
+    padding-left: 10%; /* Adjust this to move text further left */
 }
 
 .hero-text {
