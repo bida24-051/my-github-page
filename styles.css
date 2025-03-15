@@ -19,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Aligns text to the left */
-    padding-left: 10%; /* Adjust this to move text further left */
+    padding-left: 5%; /* Adjust this to move text further left */
 }
 
 .hero-text {
@@ -162,11 +162,13 @@ header h1 {
     margin: 0;
     background-color: blue;
 }
-
-/* Navigation styling */
 nav {
     background-color: blue;
     padding: 15px 0;
+    display: flex;
+    justify-content: flex-end; /* Moves menu to the right */
+    align-items: center;
+    padding-right: 30px; /* Adds spacing from the right edge */
 }
 
 nav a {
@@ -181,6 +183,7 @@ nav a:hover {
     background-color: darkblue;
     border-radius: 5px;
 }
+
 
 main {
     padding: 20px;
