@@ -1,13 +1,19 @@
-
-/* General styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: white;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #12181b; /* Dark theme background */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-/* Home page background animation */
+
+/* Home Page Background Animation */
 .home-page {
     width: 100%;
     height: 100vh;
@@ -16,7 +22,7 @@ body {
     background-repeat: no-repeat;
     animation: backgroundSlide 25s linear infinite;
 }
-/* Animation for background image slideshow with fade effect */
+
 @keyframes backgroundSlide {
     0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
     33% { background-image: url('R.jfif'); }
@@ -24,139 +30,45 @@ body {
     100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
 }
 
-
-
-.games-room {
+/* Hero Section */
+.hero-section {
     height: 100vh;
-    padding: 0;
-    background-color: #D3D3D3 !important;
-    color: black !important;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-/* Styling for About Us Section */
-.about-us {
-    font-family: Arial, sans-serif; /* Use Arial font */
-}
-
-.about-us h1, .about-us h2, .about-us p {
-    font-family: Arial, sans-serif;
-}
-
-/* Mission Statement Section Styling */
-.mission-statement {
-    text-align: center;  /* Center the mission statement */
-    margin-top: 40px;  /* Add some spacing before the mission statement */
-    margin-bottom: 40px; /* Add some spacing after the mission statement */
-}
-
-.mission-statement h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.mission-statement p {
-    font-size: 18px;
-    max-width: 800px;
-    margin: 0 auto;  /* Center the text inside the container */
-}
-/* Manager Section Styling */
-.manager-section {
-    text-align: center;  /* Center the heading */
-    margin-top: 40px;  /* Add spacing above the section */
-    margin-bottom: 40px; /* Add spacing below the section */
-}
-
-.manager-section h2 {
-    font-size: 32px; /* You can adjust the font size */
-    margin-bottom: 20px; /* Add spacing below the heading */
-}
-
-/* Container for all manager profiles (to align them horizontally) */
-.manager-profiles {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding: 20px;
-}
-
-/* Each manager profile styling */
-.manager-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 300px;
     text-align: center;
+    color: white;
 }
 
-/* Styling for the manager photo */
-.manager-photo img {
-    width:300px; /* Set the image size */
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
 }
 
-/* Manager details section */
-.manager-details {
-    max-width: 600px;
+.hero-text p {
+    font-size: 1.2rem;
 }
 
-.manager-details h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+.btn-custom {
+    background-color: #ff6600;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
 }
 
-.manager-details p {
-    font-size: 16px;
-    color: #555;
-}
-/* Set the background color for the entire page */
-body {
-    background-color: #12181b; /* Dark theme background */
-    color: white; /* Ensure text is visible */
-    margin: 0;
-    padding: 0;
-    height: 100vh; /* Ensure it covers the full viewport */
-    width: 100vw;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column; /* Ensures content stacks properly */
-    align-items: center; /* Centers content horizontally */
-}
-main {
-    background-color: transparent; /* Keep the background consistent */
-    width: 100%; /* Ensure it stretches across the page */
-    min-height: 100vh; /* Ensures it fills the screen height */
-    padding: 20px;
-    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+.btn-custom:hover {
+    background-color: #cc5500;
 }
 
-/* Header styling */
-header {
-    background-color: #808080;
-    color: blue;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    background-color: blue;
-}
+/* Navbar Styling */
 nav {
-    background-color: blue;
-    padding: 15px 0;
+    background-color: #222;
+    padding: 15px;
     display: flex;
-    justify-content: flex-end; /* Moves menu to the right */
+    justify-content: flex-end;
     align-items: center;
-    padding-right: 30px; /* Adds spacing from the right edge */
+    padding-right: 30px;
 }
 
 nav a {
@@ -172,21 +84,91 @@ nav a:hover {
     border-radius: 5px;
 }
 
+/* About Us Section */
+.about-us {
+    font-family: Arial, sans-serif;
+}
 
-main {
-    padding: 20px;
-    max-width: 1200px;
+.about-us h1, .about-us h2, .about-us p {
+    font-family: Arial, sans-serif;
+}
+
+/* Mission Statement */
+.mission-statement {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.mission-statement h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mission-statement p {
+    font-size: 18px;
+    max-width: 800px;
     margin: 0 auto;
-    width: 100%;
 }
 
-main img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
+/* Manager Section */
+.manager-section {
+    text-align: center;
+    margin: 40px 0;
 }
 
+.manager-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.manager-profiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.manager-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+.manager-photo img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.manager-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.manager-details p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+/* Games Room */
+.games-room {
+    height: 100vh;
+    padding: 0;
+    background-color: #D3D3D3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Games Display */
 .games-container {
     display: flex;
     justify-content: center;
@@ -208,14 +190,12 @@ main img {
     border-radius: 10px;
 }
 
+/* Footer */
 footer {
-    background-color: #333;
-    color: blue;
+    background-color: #222;
+    color: white;
     text-align: center;
-    padding: 5px 0;
-    font-size: 12px;
-    position: fixed;
-    bottom: 0;
+    padding: 10px;
+    font-size: 14px;
     width: 100%;
-    margin: 0;
 }
