@@ -5,54 +5,25 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-
-
-
-/* Home page background container */
+/* Home page background animation */
 .home-page {
     width: 100%;
     height: 100vh;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Each background layer */
-.bg-layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background-size: cover;
     background-position: center;
-    opacity: 0;
+    background-repeat: no-repeat;
+    background-color: #000; /* Add this line to set a default background color */
     animation: backgroundSlide 30s linear infinite;
 }
 
-/* Animation for background images */
+/* Animation for background image slideshow with fade effect */
 @keyframes backgroundSlide {
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0;
-    }
-    33% {
-        opacity: 1;
-    }
-    58% {
-        opacity: 0;
-    }
-    66% {
-        opacity: 1;
-    }
-    91% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
+    33% { background-image: url('R.jfif'); }
+    66% { background-image: url('maxresdefault.jpg'); }
+    100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
 }
+
 
 
 
