@@ -1,3 +1,5 @@
+
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -12,9 +14,16 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #000; /* Add this line to set a default background color */
     animation: backgroundSlide 30s linear infinite;
-} 
+}
+/* Animation for background image slideshow with fade effect */
+@keyframes backgroundSlide {
+    0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
+    33% { background-image: url('R.jfif'); }
+    66% { background-image: url('maxresdefault.jpg'); }
+    100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
+}
+
 .hero-section {
     display: flex;
     align-items: center;
@@ -25,17 +34,6 @@ body {
 .hero-text {
     max-width: 600px; /* Prevents text from spreading too wide */
 }
-
-
-/* Animation for background image slideshow with fade effect */
-@keyframes backgroundSlide {
-    0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
-    33% { background-image: url('R.jfif'); }
-    66% { background-image: url('maxresdefault.jpg'); }
-    100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
-}
-
-
 
 
 .games-room {
