@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 30s linear infinite;
+    animation: backgroundSlide 25s linear infinite;
 }
 /* Animation for background image slideshow with fade effect */
 @keyframes backgroundSlide {
@@ -28,12 +28,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;  /* Centers content horizontally */
-    height: 100vh;  /* Ensures the hero section takes full viewport height */
+    height: 80vh;  /* Ensures the hero section takes full viewport height */
     text-align: center;  /* Centers the text within the hero section */
     color: white;  /* Ensures text is white */
     padding: 0 20px;  /* Ensures text isn't too close to the edges */
     background: none;  /* Removes any background */  
-    font-size: 1.5rem;  /* Makes the paragraph text larger */
+    font-size: 1.0rem;  /* Makes the paragraph text larger */
     margin-bottom: 30px;
     }
 
