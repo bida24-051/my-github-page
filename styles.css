@@ -30,10 +30,11 @@ body {
     justify-content: center;  /* Centers content horizontally */
     height: 100vh;  /* Ensures the hero section takes full viewport height */
     text-align: center;  /* Centers the text within the hero section */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('your-background-image.jpg') center/cover no-repeat;  /* Adds a background image with overlay */
     color: white;  /* Ensures text is white */
     padding: 0 20px;  /* Ensures text isn't too close to the edges */
+    background: none;  /* Removes any background */
 }
+
 
 .hero-text {
     max-width: 800px;  /* Prevents text from spreading too wide */
@@ -59,9 +60,6 @@ body {
     transition: background-color 0.3s ease-in-out;  /* Smooth transition on hover */
 }
 
-.hero-section .btn:hover {
-    background-color: #007bff;  /* Changes button color on hover */
-}
 
 
 .games-room {
