@@ -17,12 +17,42 @@ body {
     animation: backgroundSlide 25s linear infinite;
 }
 
-/* Animation for background image slideshow with fade effect */
+/* home pageAnimation for background image slideshow with fade effect */
 @keyframes backgroundSlide {
     0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
     33% { background-image: url('R.jfif'); }
     66% { background-image: url('maxresdefault.jpg'); }
     100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
+}
+.custom-navbar {
+    background-color: #1E3A8A; /* Deep Blue */
+    padding-top: 5px; /* Reduce top padding */
+    padding-bottom: 5px; /* Reduce bottom padding */
+    width: 100%; /* Make the navbar span the full width of the page */
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem; /* Slightly smaller font for the brand */
+}
+
+.custom-navbar .navbar-brand img {
+    height: 50px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.custom-navbar .nav-link {
+    color: white; /* White text */
+    padding: 5px 15px; /* Reduce padding for nav links */
+    font-size: 1.1rem; /* Smaller font size for nav links */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.custom-navbar .navbar-toggler-icon {
+    width: 25px; /* Adjust width for the hamburger icon */
+    height: 25px; /* Adjust height for the hamburger icon */
 }
 
 .games-room {
