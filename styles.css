@@ -6,17 +6,18 @@ body {
     line-height: 1.6;
 }
 
+
 /* Home page background animation */
 .home-page {
     width: 100%;
     height: 100vh;
-    background-image: url('DALL·E 2025-03-13 20.44.40.webp'); /* Default background */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 30s linear 1;
+    animation: backgroundSlide 30s infinite ease-in-out;
 }
 
+/* Animation for background image slideshow with fade effect */
 @keyframes backgroundSlide {
     0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
     33% { background-image: url('R.jfif'); }
