@@ -28,7 +28,7 @@ body {
     background-color: #1E3A8A; /* Deep Blue */
     padding-top: 5px; /* Reduce top padding */
     padding-bottom: 5px; /* Reduce bottom padding */
-    width: 100%; /* Make the navbar span the full width of the page */
+    width: 90%; /* Make the navbar span the full width of the page */
 }
 
 .custom-navbar .navbar-brand {
