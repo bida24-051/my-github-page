@@ -27,12 +27,40 @@ body {
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Aligns text to the left */
-    padding-left: 5%; /* Adjust this to move text further left */
+    justify-content: center;  /* Centers content horizontally */
+    height: 100vh;  /* Ensures the hero section takes full viewport height */
+    text-align: center;  /* Centers the text within the hero section */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('your-background-image.jpg') center/cover no-repeat;  /* Adds a background image with overlay */
+    color: white;  /* Ensures text is white */
+    padding: 0 20px;  /* Ensures text isn't too close to the edges */
 }
 
 .hero-text {
-    max-width: 600px; /* Prevents text from spreading too wide */
+    max-width: 800px;  /* Prevents text from spreading too wide */
+    z-index: 1;
+}
+
+.hero-section h1 {
+    font-size: 3rem;  /* Makes the main heading bigger */
+    font-weight: 700;
+    text-transform: uppercase;  /* Makes the heading more impactful */
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;  /* Makes the paragraph text larger */
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    font-size: 1.2rem;  /* Makes the button text slightly bigger */
+    padding: 12px 25px;  /* Increases padding for a more prominent button */
+    border-radius: 25px;  /* Adds rounded corners to the button */
+    transition: background-color 0.3s ease-in-out;  /* Smooth transition on hover */
+}
+
+.hero-section .btn:hover {
+    background-color: #007bff;  /* Changes button color on hover */
 }
 
 
