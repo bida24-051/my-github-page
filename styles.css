@@ -14,16 +14,18 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 30s linear;
+    position: relative;
+    animation: backgroundSlide 30s linear infinite;
 }
 
 /* Animation for background image slideshow with fade effect */
 @keyframes backgroundSlide {
-    0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
-    33% { background-image: url('R.jfif'); }
-    66% { background-image: url('maxresdefault.jpg'); }
-    100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
+    0%, 100% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); opacity: 1; }
+    33% { background-image: url('R.jfif'); opacity: 1; }
+    66% { background-image: url('maxresdefault.jpg'); opacity: 1; }
+    100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); opacity: 1; }
 }
+
 
 
 .games-room {
