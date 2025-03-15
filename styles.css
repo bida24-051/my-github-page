@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 30s infinite ease-in-out;
+    animation: backgroundSlide 30s linear;
 }
 
 /* Animation for background image slideshow with fade effect */
@@ -95,8 +95,8 @@ body {
 
 /* Styling for the manager photo */
 .manager-photo img {
-    width: 150px; /* Set the image size */
-    height: 150px;
+    width: 250px; /* Set the image size */
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
