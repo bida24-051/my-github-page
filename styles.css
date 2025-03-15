@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 25s linear 1;
+    animation: backgroundSlide 30s linear 1;
 }
 
 @keyframes backgroundSlide {
@@ -35,6 +35,65 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Styling for About Us Section */
+.about-us {
+    font-family: Arial, sans-serif; /* Use Arial font */
+}
+
+.about-us h1, .about-us h2, .about-us p {
+    font-family: Arial, sans-serif;
+}
+
+/* Mission Statement Section Styling */
+.mission-statement {
+    text-align: center;  /* Center the mission statement */
+    margin-top: 40px;  /* Add some spacing before the mission statement */
+    margin-bottom: 40px; /* Add some spacing after the mission statement */
+}
+
+.mission-statement h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mission-statement p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;  /* Center the text inside the container */
+}
+
+/* Manager Section Styling */
+.manager-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.manager-photo {
+    margin-right: 20px;
+}
+
+.manager-photo img {
+    width: 150px; /* Set the image size */
+    height: 150px;
+    object-fit: cover;
+}
+
+.manager-details {
+    max-width: 600px;
+}
+
+.manager-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.manager-details p {
+    font-size: 16px;
+}
+
 
 
 /* Header styling */
