@@ -170,6 +170,13 @@ body {
     text-transform: uppercase; /* Make it uppercase */
 }
 
+.manager-profiles img {
+    width: 200px;   /* Set fixed width */
+    height: 200px;  /* Set fixed height */
+    object-fit: cover;  /* Ensures the image fills the square without distortion */
+    border-radius: 10px; /* Optional: Adds slightly rounded corners */
+}
+
 
 
 /* Footer */
