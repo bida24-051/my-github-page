@@ -22,38 +22,59 @@ body {
     0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
     33% { background-image: url('R.jfif'); }
     66% { background-image: url('maxresdefault.jpg'); }
-    100% { background-image: url('purple-background-gaming-boy-with-gaming-computer_973328-1172.avif'); }
-}
-.custom-navbar {
-    background-color: #1E3A8A; /* Deep Blue */
-    padding-top: 5px; /* Reduce top padding */
-    padding-bottom: 5px; /* Reduce bottom padding */
-    width: 90%; /* Make the navbar span the full width of the page */
+
+/* Navigation Bar Styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: #1E3A8A; /* Deep Blue */
+    transition: all 0.3s ease-in-out;
+    padding: 10px 0;
 }
 
-.custom-navbar .navbar-brand {
-    font-size: 1.5rem; /* Slightly smaller font for the brand */
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: white !important;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
 }
 
-.custom-navbar .navbar-brand img {
-    height: 50px; /* Adjust logo height */
-    width: auto; /* Maintain aspect ratio */
+/* Navbar Hover Effect */
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important; /* Gold hover color */
 }
 
-.custom-navbar .nav-link {
-    color: white; /* White text */
-    padding: 5px 15px; /* Reduce padding for nav links */
-    font-size: 1.1rem; /* Smaller font size for nav links */
+/* Navbar Brand (Logo) */
+.navbar-brand img {
+    height: 50px;
+    width: auto;
 }
 
-.custom-navbar .nav-link:hover {
-    color: #FFD700; /* Gold color on hover */
+/* Mobile Menu (Hamburger Icon) */
+.navbar-toggler {
+    border: none;
+    background: none;
 }
 
-.custom-navbar .navbar-toggler-icon {
-    width: 25px; /* Adjust width for the hamburger icon */
-    height: 25px; /* Adjust height for the hamburger icon */
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
 }
+
+/* Navbar background change when scrolling */
+.navbar.scrolled {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+    color: black !important;
+}
+
 
 .games-room {
     height: 100vh;
