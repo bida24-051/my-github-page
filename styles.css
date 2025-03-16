@@ -23,35 +23,40 @@ body {
     background-repeat: no-repeat;
 }
 
-.slideshow-container {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+/* 🌟 Video Background */
+.video-container {
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: -2;
-}
-
-.slideshow-container img {
-    position: absolute;
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    opacity: 0;
-    animation: fadeSlideshow 15s infinite;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
 }
 
-.slideshow-container img:nth-child(1) { animation-delay: 0s; }
-.slideshow-container img:nth-child(2) { animation-delay: 5s; }
-.slideshow-container img:nth-child(3) { animation-delay: 10s; }
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-@keyframes fadeSlideshow {
-    0% { opacity: 0; }
-    10% { opacity: 1; }
-    30% { opacity: 1; }
-    40% { opacity: 0; }
-    100% { opacity: 0; }
+/* Overlay to improve text visibility */
+.video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better contrast */
+    z-index: 0;
+}
+
+/* Ensure content is above the video */
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
 }
 
 /* Navigation Bar */
