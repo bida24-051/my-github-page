@@ -1,15 +1,17 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - O'Brian Game Studio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - O'Brian Game Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+
+<!-- 🌟 Navigation Bar (Same Across All Pages) -->
 <header>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
@@ -22,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="gamesroom.html">Games Room</a></li>
                 </ul>
@@ -31,27 +33,24 @@
     </nav>
 </header>
 
-  <main class="container my-5">
-       <h1 class="page-header">About Us</h1>
+<!-- 🌟 Page Header -->
+<main class="container my-5">
+    <h1 class="page-header text-center">About Us</h1>
 
     <div class="container">
-        <h2 class="center-text">Bringing Dreams to Life Through Games</h2>
-
+        <h2 class="text-center">Bringing Dreams to Life Through Games</h2>
         <p>
             At <strong>O'Brian Game Studio</strong>, we are passionate about crafting immersive and innovative gaming experiences. 
             Our mission is to push the boundaries of interactive entertainment, creating games that captivate and excite players worldwide.
         </p>
-
         <p>
             <strong>Founded in 2020</strong>, we strive to blend creativity with cutting-edge technology, delivering games that leave a lasting impact. 
             From action-packed adventures to strategic simulations, we design experiences that cater to every kind of gamer.
         </p>
-
         <p>
-            Our team is dedicated to **quality and originality**, ensuring that each project is built with precision and creativity. 
+            Our team is dedicated to <strong>quality and originality</strong>, ensuring that each project is built with precision and creativity. 
             Whether it's a thrilling RPG, a fast-paced shooter, or a relaxing simulation, we aim to provide engaging and unforgettable gameplay.
         </p>
-
         <p>
             The future of gaming is limitless, and we are excited to be a part of it. 
             Stay tuned for <strong>exciting new releases, updates, and upcoming projects!</strong> 
@@ -59,57 +58,50 @@
         </p>
     </div>
 
-      <!-- Mission Statement Section -->
-      <div class="container mission-statement">
+    <!-- 🌟 Mission Statement Section -->
+    <div class="container mission-statement text-center">
         <h2>Our Mission</h2>
         <p>At O'Brian Game Studio, our mission is to create captivating gaming experiences that inspire creativity, connect players, and redefine the boundaries of interactive entertainment. We strive to push the limits of game development, ensuring every project we undertake is a masterpiece that resonates with players around the world.</p>
-      </div>
+    </div>
 
-      <!-- Manager Profiles with Images -->
-      <div class="container manager-profiles">
-        <div class="manager-profile">
-          <div class="manager-photo">
-            <img src="director.jpg" alt="Manager's Photo 1" class="img-fluid">
-          </div>
-          <div class="manager-details">
-            <h3>Brian Tlale</h3>
-            <p><strong>Studio Manager</strong></p>
-            <p>John has been with O'Brian Game Studio since its inception. With over 10 years of experience in the gaming industry, John oversees the studio's operations, ensuring everything runs smoothly. He is passionate about developing innovative games and is deeply involved in the creative and managerial processes of all game projects.</p>
-          </div>
+    <!-- 🌟 Manager Profiles -->
+    <div class="container manager-profiles">
+        <div class="row">
+            <!-- Manager 1 -->
+            <div class="col-md-4 text-center">
+                <img src="director.jpg" alt="Brian Tlale" class="img-fluid rounded-circle" width="200">
+                <h3>Brian Tlale</h3>
+                <p><strong>Studio Manager</strong></p>
+                <p>Brian has been with O'Brian Game Studio since its inception. With over 10 years of experience in the gaming industry, he oversees the studio's operations, ensuring everything runs smoothly. He is passionate about developing innovative games and is deeply involved in the creative and managerial processes.</p>
+            </div>
+
+            <!-- Manager 2 -->
+            <div class="col-md-4 text-center">
+                <img src="angile ivestor.jpg" alt="Tenson Tlale" class="img-fluid rounded-circle" width="200">
+                <h3>Tenson Tlale</h3>
+                <p><strong>Investor</strong></p>
+                <p>Tenson provides essential financial backing and strategic guidance. With a strong background in the financial sector, he plays a crucial role in helping the studio grow and innovate while ensuring we continue to deliver high-quality gaming experiences.</p>
+            </div>
+
+            <!-- Manager 3 -->
+            <div class="col-md-4 text-center">
+                <img src="marketing manager.jpg" alt="Martha Kasitiko" class="img-fluid rounded-circle" width="200">
+                <h3>Martha Kasitiko</h3>
+                <p><strong>Creative Manager</strong></p>
+                <p>Martha leads the creative direction of the studio. With a background in game design and art, she ensures that every game has a unique visual identity and compelling narrative. She works closely with the development team to make sure creativity is at the heart of everything we create.</p>
+            </div>
         </div>
+    </div>
+</main>
 
-        <div class="manager-profile">
-          <div class="manager-photo">
-            <img src="angile ivestor.jpg" alt="Manager's Photo 2" class="img-fluid">
-          </div>
-          <div class="manager-details">
-            <h3>Tenson Tlale</h3>
-            <p><strong>Investor</strong></p>
-            <p>Mr. Tlale is a key investor at O'Brian Game Studio, providing essential financial backing and strategic guidance. With a strong background in the financial sector, he plays a crucial role in helping the studio grow and innovate, ensuring we continue to deliver high-quality gaming experiences while maintaining sustainable business growth.</p>
-          </div>
-        </div>
-
-        <div class="manager-profile">
-          <div class="manager-photo">
-            <img src="marketing manager.jpg" alt="Manager's Photo 3" class="img-fluid">
-          </div>
-          <div class="manager-details">
-            <h3>Martha Kasitiko</h3>
-            <p><strong>Creative Manager</strong></p>
-            <p>Martha leads the creative direction of the studio. With a background in game design and art, she ensures that every game has a unique visual identity and compelling narrative. Jane works closely with the development team to ensure that creativity is at the heart of everything we create at O'Brian Game Studio.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
+<!-- 🌟 Footer -->
+<footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2025 O'Brian Game Studio | Designed for Gamers</p>
-  </footer>
+</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-
+<!-- 🌟 Bootstrap Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-</body>
 
+</body>
 </html>
