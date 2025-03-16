@@ -1,35 +1,60 @@
-/* General styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: white;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Home page background animation */
+/* Home Page Full-Screen Background Slideshow */
 .home-page {
     width: 100%;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: backgroundSlide 25s linear infinite;
+    animation: backgroundSlide 25s infinite linear;
 }
 
-/* home pageAnimation for background image slideshow with fade effect */
+/* Background Slideshow Animation */
 @keyframes backgroundSlide {
-    0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); }
-    33% { background-image: url('R.jfif'); }
-    66% { background-image: url('maxresdefault.jpg'); }
+    0% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); opacity: 1; }
+    33% { background-image: url('R.jfif'); opacity: 1; }
+    66% { background-image: url('maxresdefault.jpg'); opacity: 1; }
+    100% { background-image: url('DALL·E 2025-03-13 20.44.40.webp'); opacity: 1; }
+}
 
-/* Navigation Bar Styling */
+/* Smooth Fade Effect */
+.home-page::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    animation: fadeEffect 25s infinite linear;
+}
+
+@keyframes fadeEffect {
+    0%, 33%, 66%, 100% { opacity: 1; }
+    16%, 50%, 83% { opacity: 0; }
+}
+
+/* Navigation Bar */
 .navbar {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    background: #1E3A8A; /* Deep Blue */
+    background: rgba(30, 58, 138, 0.8); /* Semi-transparent blue */
     transition: all 0.3s ease-in-out;
     padding: 10px 0;
 }
@@ -48,208 +73,93 @@ body {
     color: #FFD700 !important; /* Gold hover color */
 }
 
-/* Navbar Brand (Logo) */
-.navbar-brand img {
-    height: 50px;
-    width: auto;
-}
-
-/* Mobile Menu (Hamburger Icon) */
-.navbar-toggler {
-    border: none;
-    background: none;
-}
-
-.navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-/* Navbar background change when scrolling */
-.navbar.scrolled {
-    background: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.navbar.scrolled .navbar-nav .nav-link {
-    color: black !important;
-}
-
-
-.games-room {
+/* Welcome Section */
+.welcome-section {
+    position: relative;
+    width: 100%;
     height: 100vh;
-    padding: 0;
-    background-color: #D3D3D3 !important;
-    color: black !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-/* Styling for About Us Section */
-.about-us {
-    font-family: Arial, sans-serif;
-}
-
-.about-us h1, .about-us h2, .about-us p {
-    font-family: Arial, sans-serif;
-}
-
-/* Mission Statement Section Styling */
-.mission-statement {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 50px;
+    z-index: 1;
 }
 
-.mission-statement h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.mission-statement p {
-    font-size: 18px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Manager Section Styling */
-.manager-section {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.manager-section h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.manager-profiles {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding: 20px;
-}
-
-.manager-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 300px;
-    text-align: center;
-}
-
-.manager-photo img {
-    width:300px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-}
-
-.manager-details {
-    max-width: 600px;
-}
-
-.manager-details h3 {
+/* Welcome Text Styling */
+.welcome-section h4 {
     font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
     margin-bottom: 10px;
 }
 
-.manager-details p {
-    font-size: 16px;
-    color: #555;
+.welcome-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
 }
 
-/* Set the background color for the entire page */
-body {
-    background-color: #12181b;
+/* Welcome Button */
+.welcome-btn {
+    background-color: #FFD700;
+    color: black;
+    padding: 12px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.welcome-btn:hover {
+    background-color: #ffcc00;
+}
+
+/* Cards Section (Did You Know) */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.card-text {
+    font-size: 16px;
     color: white;
-    margin: 0;
-    padding: 0;
+}
+
+/* Games Room Styling */
+.games-room {
     height: 100vh;
-    width: 100vw;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: rgba(211, 211, 211, 0.5);
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-main {
-    background-color: transparent;
-    width: 100%;
-    min-height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-header {
-    background-color: #808080;
-    color: blue;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    background-color: blue;
-}
-
-nav {
-    background-color: blue;
-    padding: 15px 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 30px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 15px;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: darkblue;
-    border-radius: 5px;
-}
-
-.games-container {
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
 }
 
-.game-card {
-    width: 140px;
-    height: 180px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.game-card img {
-    width: 120%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
+/* Footer */
 footer {
-    background-color: #333;
-    color: blue;
+    background-color: #222;
+    color: white;
     text-align: center;
-    padding: 5px 0;
-    font-size: 12px;
+    padding: 10px 0;
+    font-size: 14px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin: 0;
 }
