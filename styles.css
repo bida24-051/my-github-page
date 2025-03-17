@@ -198,11 +198,24 @@ body {
     margin-top: 50px;
     text-align: center; /* Moves centering to CSS */
 }
+.mission-statement {
+    text-align: center; /* Center everything */
+}
+
+.mission-statement h2 {
+    font-family: 'Bahnschrift Condensed', sans-serif;  
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFD700; /* Gold color */
+}
+
 .mission-statement p {
-    font-family: Arial, sans-serif;
+    font-family: 'Bahnschrift Condensed', sans-serif;
     font-size: 18px;
     text-align: center;
 }
+
 
 @font-face {
     font-family: 'Bahnschrift Condensed';
