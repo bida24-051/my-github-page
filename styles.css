@@ -204,6 +204,22 @@ body {
     text-align: center;
 }
 
+@font-face {
+    font-family: 'Bahnschrift Condensed';
+    src: local('Bahnschrift Condensed'), local('Bahnschrift');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.intro-title {
+    text-align: center;  
+    font-family: 'Bahnschrift Condensed', sans-serif;  
+    font-size: 28px;  
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
 .manager-profiles img {
     width: 200px;   /* Set fixed width */
     height: 200px;  /* Set fixed height */
