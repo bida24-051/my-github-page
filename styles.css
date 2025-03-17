@@ -189,6 +189,21 @@ body {
     text-transform: uppercase; /* Make it uppercase */
 }
 
+@import url('https://fonts.cdnfonts.com/css/algerian');
+
+.managers-title {
+    font-family: 'Algerian', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center; /* Moves centering to CSS */
+}
+.mission-statement p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
 .manager-profiles img {
     width: 200px;   /* Set fixed width */
     height: 200px;  /* Set fixed height */
