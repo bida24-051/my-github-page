@@ -251,6 +251,10 @@ body {
     margin: 0 auto;
 }
 
+.managers-section {
+    background: linear-gradient(to right, #0044cc, #00aaff);
+}
+
 
 /* Footer */
 footer {
