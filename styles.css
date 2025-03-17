@@ -241,6 +241,11 @@ body {
     margin-top: 20px;
 }
 
+.manager-position {
+    color: #064420; /* Dark Green */
+    font-weight: bold;
+}
+
 
 .manager-profiles img {
     width: 200px;   /* Set fixed width */
