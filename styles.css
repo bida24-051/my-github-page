@@ -242,8 +242,10 @@ body {
 }
 
 .manager-position {
-    color: #064420; /* Dark Green */
+    font-family: 'Times New Roman', serif; /* Classic serif font */
+    font-size: 22px;
     font-weight: bold;
+    color: #064420; /* Dark Green */
 }
 
 
