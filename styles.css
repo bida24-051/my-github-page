@@ -197,23 +197,32 @@ body {
     font-weight: bold;
     margin-top: 50px;
     text-align: center; /* Moves centering to CSS */
+    color: #064420;
 }
+
 .mission-statement {
     text-align: center; /* Center everything */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto 40px; /* Center horizontally and add spacing */
 }
 
 .mission-statement h2 {
     font-family: 'Bahnschrift Condensed', sans-serif;  
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
-    color: #FFD700; /* Gold color */
+    color: #064420; /* Dark green color (adjust as needed) */
+    margin-bottom: 10px;
 }
 
 .mission-statement p {
     font-family: 'Bahnschrift Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
+    color: #333; /* Dark gray for better readability */
+    line-height: 1.6;
+    max-width: 700px; /* Control text width */
+    margin: 0 auto; /* Center text */
 }
 
 
