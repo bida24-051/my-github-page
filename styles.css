@@ -207,6 +207,11 @@ body {
     text-align: center; 
     color: black; 
 }
+mission-tittle h2 {
+    font-size: 28px; 
+    font-weight: bold;
+    color: #064e3b; 
+}
 
 
 @font-face {
