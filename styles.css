@@ -200,29 +200,12 @@ body {
     color: #064420;
 }
 
-.mission-statement {
-    text-align: center; /* Center everything */
-    max-width: 800px; /* Limit width for better readability */
-    margin: 0 auto 40px; /* Center horizontally and add spacing */
-}
-
-.mission-statement h2 {
-    font-family: 'Bahnschrift Condensed', sans-serif;  
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    color: #064420; /* Dark green color (adjust as needed) */
-    margin-bottom: 10px;
-}
-
-.mission-statement p {
-    font-family: 'Bahnschrift Condensed', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #333; /* Dark gray for better readability */
-    line-height: 1.6;
-    max-width: 700px; /* Control text width */
-    margin: 0 auto; /* Center text */
+.mission-title {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center; 
+    color: black; 
 }
 
 
@@ -243,18 +226,18 @@ body {
 
 .manager-position {
     font-family: 'Times New Roman', serif; /* Classic serif font */
-    font-size: 22px;
     font-weight: bold;
-    color: #064420; /* Dark Green */
+    color: #064420; 
 }
 
 
-.manager-profiles img {
+.manager-container img {
     width: 200px;   /* Set fixed width */
     height: 200px;  /* Set fixed height */
     object-fit: cover;  /* Ensures the image fills the square without distortion */
     border-radius: 10px; /* Optional: Adds slightly rounded corners */
 }
+
 
 
 
