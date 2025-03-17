@@ -194,8 +194,10 @@ body {
 
 /* Managers Section */
 .managers-section {
+    width:100%;
     text-align: center;
     padding: 50px 0;
+    overflow-x: auto;
 }
 
 .managers-title {
@@ -218,12 +220,13 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    flex-wrap: now wrap;
+
 }
 
 .manager-profile {
     text-align: center;
+    min-width: 220px;
 }
 
 .manager-profile img {
