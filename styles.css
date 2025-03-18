@@ -139,9 +139,9 @@ body {
 .games-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
-    gap: 15px; /* Space between cards */
-    justify-content: start; /* Align everything to the left */
-    max-width: 1000px; /* Ensures proper spacing */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Centering */
+    max-width: 1200px; /* Keeps layout clean */
     margin: auto;
     padding: 20px;
 }
