@@ -4,12 +4,14 @@ document.addEventListener("DOMContentLoaded", function () {
             let videoContainer = this.nextElementSibling;
             let iframe = videoContainer.querySelector('iframe');
 
-            if (videoContainer.style.display === 'none' || videoContainer.style.display === '') {
-                iframe.src = this.getAttribute('data-video');
-                videoContainer.style.display = 'block';
+            if (!videoContainer.classList.contains("visible")) {
+                iframe.src = this.getAttribute('data-video') + "?autoplay=1"; // Play instantly
+                videoContainer.classList.add("visible");
+                videoContainer.style.display = "block"; // Show video
             } else {
-                iframe.src = '';
-                videoContainer.style.display = 'none';
+                iframe.src = ""; // Stop video
+                videoContainer.classList.remove("visible");
+                videoContainer.style.display = "none"; // Hide video
             }
         });
     });
