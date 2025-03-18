@@ -138,10 +138,10 @@ body {
 
 .games-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
     gap: 15px; /* Space between cards */
-    justify-content: start; /* Aligns everything to the left */
-    max-width: 900px; /* Controls width for better layout */
+    justify-content: start; /* Align everything to the left */
+    max-width: 1000px; /* Ensures proper spacing */
     margin: auto;
     padding: 20px;
 }
@@ -150,7 +150,7 @@ body {
     background-color: #fff;
     border: 2px solid #ddd;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 100%; /* Each card takes full column width */
@@ -164,7 +164,7 @@ body {
 }
 
 .game-card h3 {
-    font-size: 12px;
+    font-size: 14px;
     margin: 5px 0;
     white-space: nowrap;
     overflow: hidden;
@@ -173,9 +173,9 @@ body {
 }
 
 .game-card button {
-    font-size: 10px;
-    padding: 5px;
-    width: 90%;
+    font-size: 12px;
+    padding: 6px;
+    width: 100%;
 }
 
 /* Hover effect */
@@ -183,25 +183,18 @@ body {
     transform: scale(1.05);
 }
 
-/* Responsive Layout */
+/* 🔄 Responsive Layout */
 @media (max-width: 1024px) {
-    .games-container {
-        grid-template-columns: repeat(3, 1fr); /* 3 per row */
-    }
-}
-
-@media (max-width: 768px) {
     .games-container {
         grid-template-columns: repeat(2, 1fr); /* 2 per row */
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .games-container {
         grid-template-columns: repeat(1, 1fr); /* 1 per row */
     }
 }
-
 
 /* 🌟 Centered Page Headers (For About, Contact, Games Room) */
 .page-header {
