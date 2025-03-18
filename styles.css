@@ -136,12 +136,10 @@ body {
     transform: scale(1.05);
 }
 
-
-
 /* Games Room Styling */
 .games-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
     gap: 20px; /* Space between cards */
     padding: 20px;
     justify-content: center;
@@ -177,6 +175,26 @@ body {
     margin-top: 10px;
     text-transform: uppercase;
 }
+
+/* Button Styling */
+.watch-btn {
+    background-color: #FFD700;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.watch-btn:hover {
+    background-color: #ffcc00;
+}
+
+
+
+
 
 
 /* 🌟 Centered Page Headers (For About, Contact, Games Room) */
