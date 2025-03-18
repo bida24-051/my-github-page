@@ -136,15 +136,6 @@ body {
     transform: scale(1.05);
 }
 
- body {
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
         }
         .games-container {
             display: flex;
