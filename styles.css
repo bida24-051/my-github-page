@@ -137,14 +137,16 @@ body {
 }
 
 .games-container {
-    display: flex;          /* Enables horizontal alignment */
-    flex-wrap: wrap;        /* Allows wrapping to next line */
-    justify-content: center; /* Centers cards on the page */
-    gap: 10px;             /* Adds spacing between cards */
+    display: grid;          /* Grid layout for perfect alignment */
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 10px;             /* Space between cards */
+    justify-content: center; /* Centers everything */
+    max-width: 800px;      /* Controls width for better layout */
+    margin: auto;
 }
 
 .game-card {
-    width: 150px;          /* Square shape (adjust as needed) */
+    width: 150px;          /* Square shape */
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -164,6 +166,8 @@ body {
     object-fit: cover;      /* Ensures images are square */
     border-radius: 5px;
 }
+
+
 
 /* Game title */
 .game-card h3 {
