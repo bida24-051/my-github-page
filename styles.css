@@ -137,39 +137,32 @@ body {
 }
 
 .games-container {
-    display: grid;          /* Grid layout for perfect alignment */
+    display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
-    gap: 10px;             /* Space between cards */
-    justify-content: center; /* Centers everything */
-    max-width: 800px;      /* Controls width for better layout */
+    gap: 15px; /* Space between cards */
+    justify-content: start; /* Aligns everything to the left */
+    max-width: 900px; /* Controls width for better layout */
     margin: auto;
+    padding: 20px;
 }
 
 .game-card {
-    width: 150px;          /* Square shape */
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #fff; /* White background */
-    border: 2px solid #ddd; /* Light border */
-    border-radius: 10px;    /* Rounded corners */
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
     padding: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Light shadow */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%; /* Each card takes full column width */
 }
 
 .game-card img {
-    width: 100px;          /* Smaller square images */
+    width: 100px;
     height: 100px;
-    object-fit: cover;      /* Ensures images are square */
+    object-fit: cover;
     border-radius: 5px;
 }
 
-
-
-/* Game title */
 .game-card h3 {
     font-size: 12px;
     margin: 5px 0;
@@ -179,7 +172,6 @@ body {
     max-width: 90%;
 }
 
-/* Button inside the card */
 .game-card button {
     font-size: 10px;
     padding: 5px;
@@ -191,31 +183,22 @@ body {
     transform: scale(1.05);
 }
 
-/* Responsive layout */
-@media (min-width: 1024px) {
-    .games-container {
-        justify-content: flex-start; /* Aligns items to the left */
-    }
-    .game-card {
-        flex: 0 1 calc(20% - 10px); /* 5 per row */
-    }
-}
-
+/* Responsive Layout */
 @media (max-width: 1024px) {
-    .game-card {
-        flex: 0 1 calc(25% - 10px); /* 4 per row */
+    .games-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 per row */
     }
 }
 
 @media (max-width: 768px) {
-    .game-card {
-        flex: 0 1 calc(33.33% - 10px); /* 3 per row */
+    .games-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 per row */
     }
 }
 
 @media (max-width: 480px) {
-    .game-card {
-        flex: 0 1 calc(50% - 10px); /* 2 per row */
+    .games-container {
+        grid-template-columns: repeat(1, 1fr); /* 1 per row */
     }
 }
 
