@@ -310,7 +310,7 @@ body {
     flex-direction: column;
     align-items: flex-start; /* Align content to the left */
     padding-left: 20px; /* Adds space from the edge */
-    background: url('image.png') center/cover no-repeat;
+    background: url("best background images 4.jpg") center/cover no-repeat;
     background-attachment: fixed; /* Keeps it in place while scrolling */
 }
 .news-item {
