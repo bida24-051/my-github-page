@@ -279,18 +279,22 @@ body {
     text-transform: uppercase;
 }
 
-/* 🌟 News Page Container (Same as About Page) */
+
+/* 🌟 Ensure Background Starts Below Header */
 .news-container {
-    width: 100%;
-    min-height: 100vh;
-    padding: 50px 20px;
-    background: linear-gradient(to bottom, #333, #777);
+    width: 100vw; /* Full width */
+    min-height: calc(100vh - 100px); /* Adjust height minus the header */
+    background: url("best-background-images-4.jpg") center/cover no-repeat;
+    background-attachment: fixed; /* Keeps it fixed while scrolling */
     color: white;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 100px; /* Pushes content down below the header */
 }
+
 .news-item {
     display: flex;
     align-items: center;
