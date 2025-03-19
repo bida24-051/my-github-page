@@ -298,15 +298,12 @@ body {
 }
 
 .news-intro {
-    position: relative;
-    z-index: 2; /* Ensures text appears above the overlay */
-    font-size: 64px;
-    font-weight: bold;
+    font-size: 40px; /* Was 64px, now smaller */
+    line-height: 1.2; /* Keeps spacing clean */
     text-transform: uppercase;
-    letter-spacing: 3px;
-    max-width: 80%; /* Limits width for better readability */
-    line-height: 1.2;
+    letter-spacing: 2px;
 }
+
 
 .news-container {
     display: flex;
