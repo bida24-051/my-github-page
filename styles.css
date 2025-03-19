@@ -298,7 +298,7 @@ body {
 .news-item {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px;
