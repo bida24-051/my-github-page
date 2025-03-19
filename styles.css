@@ -138,7 +138,7 @@ body {
 
 .games-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
     gap: 20px; /* Space between cards */
     justify-content: center; /* Centering */
     max-width: 1200px; /* Keeps layout clean */
@@ -153,8 +153,10 @@ body {
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 100%; /* Each card takes full column width */
+    width: 70%; /* Each card takes full column width */
 }
+
+
 
 .game-card img {
     width: 100px;
@@ -162,6 +164,7 @@ body {
     object-fit: cover;
     border-radius: 5px;
 }
+
 
 .game-card h3 {
     font-size: 14px;
