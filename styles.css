@@ -274,8 +274,8 @@ body {
 }
 .news-header {
     position: relative;
-    width: 100%;
-    height: 90vh;
+    width: 90%;
+    height: 70vh;
     background: url('your-background-image.jpg') center/cover no-repeat; /* Replace with your actual image */
     display: flex;
     flex-direction: column;
@@ -291,14 +291,14 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background: rgba(0, 0, 0, 0.6); /* Dark transparent overlay */
     z-index: 1;
 }
 
 .news-intro {
-    font-size: 40px; /* Was 64px, now smaller */
+    font-size: 50px; /* Was 64px, now smaller */
     line-height: 1.2; /* Keeps spacing clean */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -319,10 +319,12 @@ body {
 }
 
 .news-item img {
-    width: 200px; /* Set a fixed width */
-    height: auto;
-    border-radius: 10px;
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 0; /* Align to the left */
+    display: block; /* Remove any centering behavior */
 }
+
 
 /* Footer */
 footer {
@@ -333,5 +335,5 @@ footer {
     font-size: 14px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 80%;
 }
