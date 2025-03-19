@@ -268,69 +268,58 @@ body {
     max-width: 300px;
     margin: 0 auto;
 }
-.news-header {
-    position: relative;
-    width: 90%;
-    height: 70vh;
-    background: url('your-background-image.jpg') center/cover no-repeat; /* Replace with your actual image */
+/* 🌟 Page Header (Matches About Page) */
+.page-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #FFD700;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+/* 🌟 News Page Container (Same as About Page) */
+.news-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #333, #777);
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    color: white; /* Ensure text remains visible */
-    padding: 20px;
+    justify-content: center;
 }
 
-.news-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    background: rgba(0, 0, 0, 0.6); /* Dark transparent overlay */
-    z-index: 1;
-}
-
-.news-intro {
-    font-size: 50px; /* Was 64px, now smaller */
-    line-height: 1.2; /* Keeps spacing clean */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-
-.news-container {
-    width: 100vw; /* Full width */
-    min-height: 100vh; /* At least full screen height */
-    background: url("best background images 4.jpg") center/cover no-repeat;
-    background-attachment: fixed; /* Keeps it in place while scrolling */
-    color: white;
-    position: absolute; /* Position it to cover everything */
-    top: 100px; /* Push it down so the header is visible */
-    left: 0;
-    right: 0;
-    padding: 50px 20px;
-    z-index: -1; /* Ensures content is above */
-}
-
-.news-container {
-    min-height: 100vh; /* Ensures it takes at least the full screen */
-}
+/* 🌟 Individual News Item */
 .news-item {
     display: flex;
     align-items: center;
-    gap: 20px; /* Space between image and text */
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
     margin-bottom: 20px;
 }
 
+/* 🌟 News Images */
 .news-item img {
-    width: 300px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 0; /* Align to the left */
-    display: block; /* Remove any centering behavior */
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }
+
+/* 🌟 News Text */
+.news-text {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+
 
 
 /* Footer */
