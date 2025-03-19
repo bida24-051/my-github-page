@@ -135,12 +135,10 @@ body {
     background-color: #ffcc00;
     transform: scale(1.05);
 }
-
 .games-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
     gap: 20px; /* Space between cards */
-    justify-content: center; /* Centering */
     max-width: 1200px; /* Keeps layout clean */
     margin: auto;
     padding: 20px;
@@ -153,18 +151,20 @@ body {
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 70%; /* Each card takes full column width */
+    width: 100%; /* Each card takes full column width */
+    height: 250px; /* Set a fixed height for consistency */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Ensures content is well-spaced */
 }
 
-
-
 .game-card img {
-    width: 100px;
-    height: 100px;
+    width: 120px; /* Ensures all images are the same size */
+    height: 120px;
     object-fit: cover;
     border-radius: 5px;
 }
-
 
 .game-card h3 {
     font-size: 14px;
@@ -178,12 +178,13 @@ body {
 .game-card button {
     font-size: 12px;
     padding: 6px;
-    width: 100%;
+    width: 80%; /* Keeps buttons uniform */
 }
 
 /* Hover effect */
 .game-card:hover {
     transform: scale(1.05);
+    transition: 0.3s ease-in-out;
 }
 
 /* 🔄 Responsive Layout */
@@ -198,6 +199,7 @@ body {
         grid-template-columns: repeat(1, 1fr); /* 1 per row */
     }
 }
+
 
 /* 🌟 Centered Page Headers (For About, Contact, Games Room) */
 .page-header {
