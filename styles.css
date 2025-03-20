@@ -307,15 +307,16 @@ body {
     border-radius: 10px;
     text-align: left;
     flex-shrink: 0;
-    align-items: center; /* Align items vertically */
+    align-items: center;stretch; 
 }
 
 /* 🌟 Image */
 .news-item img {
     width: 150px; /* Set a fixed width */
-    height: auto; /* Keep aspect ratio */
+    height: 100PX
     object-fit: cover;
     border-radius: 10px;
+
 }
 
 /* 🌟 News Content */
@@ -323,8 +324,9 @@ body {
     flex: 1; /* Fill remaining space */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 15px;
+    min-height: 100px;
 }
 
 .news-content h2 {
