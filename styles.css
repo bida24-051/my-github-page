@@ -354,7 +354,7 @@ body {
 .countdown-box {
   display: flex;
   align-items: center;
-  background: #4b0082; /* Deep purple */
+  background: #808080;
  color: #fff; /* Makes the text readable */
   border-radius: 12px;
   padding: 1rem;
