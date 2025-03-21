@@ -389,10 +389,10 @@ body {
 }
 #countdown.time {
     font-weight: bold; /* Makes the time bold */
-    font-size: 1.8em;   /* Increases the size of the time */
+    font-size: 1.5em;   /* Increases the size of the time */
     color: yellow;     /* Deep Blue color */
-    padding: 7px;       /* Adds some space around the time */
-    background-color: #f0f0f0; /* Light gray background for contrast */
+    padding: 5px;       /* Adds some space around the time */
+    background: #808080;
     border-radius: 5px; /* Rounded corners */
 }
 
