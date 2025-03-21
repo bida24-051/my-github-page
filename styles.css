@@ -350,20 +350,27 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
-
-.countdown-floating {
-  position: fixed;
-  top: 80px; /* adjust so it's not on the navbar */
-  right: 1rem;
-  background: #111;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  z-index: 9999;
-  font-size: 0.85rem;
-  color: #FFD700;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+.countdown-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* spacing between image and name */
+  margin-bottom: 1rem;
 }
+
+.countdown-image {
+  width: 50px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.game-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #fff; /* or any color you like */
+}
+
+
 
 
 /* Footer */
