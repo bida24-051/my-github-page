@@ -352,23 +352,17 @@ body {
 }
 
 
-#countdown-box {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background-color: #222;
-  color: white;
-  padding: 10px 15px;
+.countdown-floating {
+  position: fixed;
+  top: 80px; /* adjust so it's not on the navbar */
+  right: 1rem;
+  background: #111;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  z-index: 999;
-  text-align: center;
-}
-
-#countdown span {
-  font-weight: bold;
+  z-index: 9999;
+  font-size: 0.85rem;
   color: #FFD700;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
 }
 
 
