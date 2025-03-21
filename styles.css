@@ -359,6 +359,46 @@ body {
 }
 
 
+  .countdown-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+    color: #fff;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .countdown-section .highlight {
+    color: #FFD700;
+  }
+
+  #countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  #countdown div {
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 80px;
+  }
+
+  #countdown span {
+    font-size: 2em;
+    display: block;
+    color: #FFD700;
+  }
+
+  #countdown small {
+    font-size: 0.9em;
+    color: #ccc;
+  }
+
 /* Footer */
 footer {
     background-color: #222;
