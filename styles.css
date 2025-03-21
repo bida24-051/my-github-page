@@ -387,7 +387,7 @@ body {
   font-size: 1rem;
   color: #222;
 }
-.time {
+#countdown.time {
     font-weight: bold; /* Makes the time bold */
     font-size: 1.8em;   /* Increases the size of the time */
     color: yellow;     /* Deep Blue color */
