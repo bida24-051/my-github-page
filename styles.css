@@ -142,7 +142,7 @@ body {
   margin-top: 40px;
 }
 .game-card {
-  background: #fff;
+  background: #808080;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -158,8 +158,8 @@ body {
 }
 
 .game-card img {
-    width: 200px; /* Set a standard size */
-    height: 200px;
+    width: 250px; /* Set a standard size */
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
