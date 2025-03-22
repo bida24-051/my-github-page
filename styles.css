@@ -385,26 +385,27 @@ body {
 
 #countdown {
   display: flex;
-  justify-content: center;
-  gap: 10px; /* Space between blocks */
-  margin-top: 10px;
+  gap: 10px; /* Adds space between blocks */
+  justify-content: center; /* Centers the countdown */
+  align-items: center;
 }
 
-.countdown-item {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #FFD700; /* Yellow text */
-  background: #1E3A8A; /* Deep Blue background */
-  padding: 10px 15px;
-  border-radius: 8px; /* Rounded corners */
-  text-align: center;
-  min-width: 70px; /* Ensures equal block sizes */
+.time-box {
   display: inline-block;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px; /* Reduce size */
+  font-weight: bold;
+  background: #1E3A8A; /* Deep Blue */
+  color: yellow;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.countdown-number {
-  font-size: 1.2rem;
+.time-box small {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  color: white;
 }
 
 
