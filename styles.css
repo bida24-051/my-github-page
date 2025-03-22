@@ -158,8 +158,8 @@ body {
 }
 
 .game-card img {
-    width: 120px; /* Set a standard size */
-    height: 120px;
+    width: 200px; /* Set a standard size */
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
 }
