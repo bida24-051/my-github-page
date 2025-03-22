@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
 // Set your launch date
 const launchDate = new Date("2025-07-01T00:00:00").getTime();
-
 const countdownElement = document.getElementById("countdown");
 
 const timer = setInterval(() => {
@@ -28,7 +28,7 @@ const timer = setInterval(() => {
 
   if (distance < 0) {
     clearInterval(timer);
-    countdownElement.innerHTML = "Launched!";
+    countdownElement.innerHTML = "<span class='time-box'>Launched!</span>";
     return;
   }
 
@@ -37,7 +37,10 @@ const timer = setInterval(() => {
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  countdownElement.innerHTML =
-    `${days} Days : ${hours} Hours : ${minutes} Minutes : ${seconds} Seconds`;
+  countdownElement.innerHTML = `
+    <span class="time-box">${days} <small>Days</small></span>
+    <span class="time-box">${hours} <small>Hours</small></span>
+    <span class="time-box">${minutes} <small>Minutes</small></span>
+    <span class="time-box">${seconds} <small>Seconds</small></span>
+  `;
 }, 1000);
-
