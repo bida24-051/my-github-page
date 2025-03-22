@@ -384,16 +384,22 @@ body {
 }
 
 #countdown {
-  font-size: 1rem;
-  color: #222;
+  font-size: 2rem;
+  padding: 20px;
+  background: #f5f5f5; /* Light grey background */
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 #countdown.time {
     font-weight: bold; /* Makes the time bold */
     font-size: 1.5em;   /* Increases the size of the time */
-    color: yellow;     /* Deep Blue color */
+    color: #FFD700; /* Gold color for better visibility *
     padding: 5px;       /* Adds some space around the time */
-    background: #808080;
-    border-radius: 5px; /* Rounded corners */
+    background: #1E3A8A; /* Deep Blue background *
+    border-radius: 8px;
+    display: inline-block;
+    min-width: 80px;
 }
 
 
