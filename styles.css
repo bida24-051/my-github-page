@@ -382,14 +382,16 @@ body {
   font-weight: bold;
   color: #333;
 }
+
 #countdown {
   display: flex;
   justify-content: center;
   gap: 10px; /* Space between blocks */
+  margin-top: 10px;
 }
 
-.countdown-box {
-  font-size: 1rem; /* Reduced size */
+.countdown-item {
+  font-size: 1rem;
   font-weight: bold;
   color: #FFD700; /* Yellow text */
   background: #1E3A8A; /* Deep Blue background */
@@ -399,6 +401,10 @@ body {
   min-width: 70px; /* Ensures equal block sizes */
   display: inline-block;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-number {
+  font-size: 1.2rem;
 }
 
 
