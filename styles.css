@@ -415,6 +415,48 @@ body {
 }
 
 
+.footer {
+  background: linear-gradient(to top, #1e1e1e, #000); /* Black gradient */
+  color: white;
+  text-align: center;
+  padding: 60px 20px 30px;
+  position: relative;
+  overflow: hidden;
+}
+.waves {
+  background: url('https://svgshare.com/i/vkN.svg') repeat-x;
+  height: 80px;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  z-index: 1;
+}
+
+.social-icons {
+  margin: 20px 0;
+  z-index: 2;
+  position: relative;
+}
+.social-icons a {
+  margin: 0 12px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #1da1f2; /* Light blue on hover */
+}
+
+p.copyright {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 15px;
+  z-index: 2;
+  position: relative;
+}
 
 /* Footer */
 footer {
