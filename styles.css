@@ -135,6 +135,12 @@ body {
     background-color: #ffcc00;
     transform: scale(1.05);
 }
+
+.games-page {
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-attachment: fixed;
+}
+
 .game-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
