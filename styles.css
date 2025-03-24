@@ -504,5 +504,16 @@ input[type="submit"]:hover {
   background-color: #00ccb3;
    
 }
+ textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  resize: vertical;
+  margin-bottom: 15px;
+  font-family: inherit;
 }
+   }
 
