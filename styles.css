@@ -444,17 +444,19 @@ body {
    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
   background-attachment: fixed;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   margin: 0;
-  form {
+  padding: 40px;
+ 
+    form {
   background-color: #1f1f1f;
-  padding: 30px;
+  padding: 50px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
-  width: 350px;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 0;     
 }
 
 fieldset {
