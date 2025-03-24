@@ -520,6 +520,26 @@ input[type="submit"]:hover {
   margin-bottom: 15px;
   font-family: inherit;
 }
+select#rating {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease;
+  }
+
+  select#rating:hover {
+    border-color: #4CAF50;
+  }
+
+  label[for="rating"] {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 16px;
+  }
+    
 }   
 
  .thankyou-page { 
