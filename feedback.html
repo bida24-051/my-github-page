@@ -1,16 +1,37 @@
-  <form action="thankyou.html" method="post" >
-  <fieldset>
-  <legend>personal information:</legend>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
-  First name:<br> 
-  <input type="text" name="firstname" value=""><br>
-  Last name:<br> <input type="text" name="lastname" value=""><br><br> 
-  <input type="submit" value="Submit"> 
-  </fieldset>
+ <!-- feedback.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="feedback.css" />
+</head>
+<body>
+
+  <form action="thankyou.html" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="firstname">First Name:</label><br>
+      <input type="text" name="firstname" id="firstname" required><br><br>
+
+      <label for="lastname">Last Name:</label><br>
+      <input type="text" name="lastname" id="lastname" required><br><br>
+
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="male" id="male" checked>
+      <label for="male">Male</label><br>
+
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Female</label><br>
+
+      <input type="radio" name="gender" value="other" id="other">
+      <label for="other">Other</label><br><br>
+
+      <input type="submit" value="Submit">
+    </fieldset>
   </form>
+
+</body>
+</html>
