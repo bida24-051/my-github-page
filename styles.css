@@ -441,12 +441,15 @@ body {
 }
 
 .feedback-page {
-   background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+body {
+  background-color: linear-gradient(to bottom, #ffffff, #f2f2f2);
   background-attachment: fixed;
+  color: white; /* Ensures text is visible on dark background */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100vh;
   margin: 0;
   padding: 40px;
+}
  
     form {
   background-color: #1f1f1f;
@@ -517,5 +520,43 @@ input[type="submit"]:hover {
   margin-bottom: 15px;
   font-family: inherit;
 }
-   }
+}   
+
+ .thankyou-page { 
+  body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.thank-you-box {
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.thank-you-box h1 {
+  font-size: 2em;
+  color: #00ffe1;
+}
+
+.thank-you-box a {
+  color: #00ffe1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.thank-you-box a:hover {
+  text-decoration: underline;
+}
+ }
+
+     
 
