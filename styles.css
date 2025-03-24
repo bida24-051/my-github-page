@@ -542,9 +542,9 @@ select#rating {
     
 }   
 
- .thankyou-page { 
-  body {
-  background-color: black;
+.thankyou-page {
+  background-color: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-attachment: fixed;
   color: white;
   font-family: Arial, sans-serif;
   display: flex;
@@ -552,22 +552,33 @@ select#rating {
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding: 20px;
 }
+
 
 .thank-you-box {
   text-align: center;
   background-color: #1a1a1a;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  padding: 60px; /* bigger padding */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  max-width: 600px; /* keep it responsive */
+  width: 100%;
 }
 
 .thank-you-box h1 {
-  font-size: 2em;
+  font-size: 3em; /* increased from 2em */
   color: #00ffe1;
+  margin-bottom: 20px;
+}
+
+.thank-you-box p {
+  font-size: 1.5em; /* make paragraph text bigger */
+  margin-bottom: 30px;
 }
 
 .thank-you-box a {
+  font-size: 1.2em; /* bigger link text */
   color: #00ffe1;
   text-decoration: none;
   font-weight: bold;
@@ -576,7 +587,6 @@ select#rating {
 .thank-you-box a:hover {
   text-decoration: underline;
 }
- }
 
      
 
