@@ -431,7 +431,7 @@ body {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color:#D3D3D3;
   margin: 0;
   padding: 40px 20px;
 }
@@ -441,7 +441,7 @@ body {
   justify-content: space-between;
   max-width: 800px;
   margin: auto;
-  background-color: #f4f4f4;
+  background-color:#D3D3D3;
   gap: 40px;
   flex-wrap: wrap;
 }
