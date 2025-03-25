@@ -452,8 +452,9 @@ body {
 }
 
 .office h3 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
+  color: #333;  
   text-transform: uppercase;
   margin-bottom: 10px;
 }
