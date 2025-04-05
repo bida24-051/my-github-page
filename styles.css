@@ -553,6 +553,22 @@ input[type="submit"]:hover {
   background-color: #00ccb3;
    
 }
+
+.back {
+  background-color: #00ffcc;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back:hover {
+  background-color: #00ccb3;
+}
+
  textarea {
   width: 100%;
   padding: 10px;
