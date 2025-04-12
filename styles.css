@@ -646,14 +646,6 @@ select#rating {
   text-decoration: underline;
 }
 
-.footer {
-    background-color: #111; /* or any color */
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    z-index: 2;
-}
 
      
 
