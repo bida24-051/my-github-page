@@ -56,6 +56,7 @@ main {
     min-height: 100vh;
     position: relative;
     z-index: 1;
+    padding-bottom: 100px;
 }
 
 /* Ensure content is above the video */
@@ -643,6 +644,15 @@ select#rating {
 
 .thank-you-box a:hover {
   text-decoration: underline;
+}
+
+.footer {
+    background-color: #111; /* or any color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
 }
 
      
