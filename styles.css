@@ -663,4 +663,26 @@ left: 0;
   margin: 0 auto;
 }
   
+/* Privacy Policy Page Styling */
+.privacy-page {
+  background-color:#f0f2f5 ; /* light gray background */
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.privacy-container {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-container h1,
+.privacy-container h2 {
+  color: #2e005c; /* Deep purple */
+}
 
