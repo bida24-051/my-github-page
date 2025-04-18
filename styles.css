@@ -686,3 +686,26 @@ left: 0;
   color: #2e005c; /* Deep purple */
 }
 
+/* Terms of Service Page Styles */
+.terms-page {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.terms-container {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.terms-container h1,
+.terms-container h2 {
+  color: #2e005c; /* Your brand's deep purple */
+}
+
