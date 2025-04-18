@@ -259,9 +259,6 @@ main {
     justify-content: center;
     gap: 50px;
     flex-wrap: now wrap;
- display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 .manager-profile {
