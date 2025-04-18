@@ -642,7 +642,7 @@ select#rating {
    .site-footer {
 background-color: #2e005c;
 color: white;
-padding: 20px 0;
+padding: 10px 0;
 text-align: center;
 width: 100%;
 position: relative;
@@ -652,14 +652,14 @@ left: 0;
 .site-footer a {
   color: #f1c40f;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 .site-footer a:hover {
   text-decoration: underline;
 }
 .site-footer .footer-container {
-  max-width: 1200px; /* optional: centers content */
+  max-width: 1400px; /* optional: centers content */
   margin: 0 auto;
 }
   
