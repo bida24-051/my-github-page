@@ -659,14 +659,5 @@ select#rating {
   text-decoration: underline;
 }
 
-.social-icons a {
-  color: white;
-  margin: 0 8px;
-  font-size: 1.2rem;
-}
-
-.social-icons a:hover {
-  color: #f1c40f;
-}
   
 
