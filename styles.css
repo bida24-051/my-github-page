@@ -255,7 +255,7 @@ main {
 
 .managers-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px;
     flex-wrap: now wrap;
 }
