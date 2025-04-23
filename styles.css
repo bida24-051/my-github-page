@@ -10,6 +10,12 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+
 .home-page {
     width: 100%;
     min-height: 100vh;
@@ -20,8 +26,11 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 80px 20px;
+    margin: 0;
+   padding: 0;
+   height: 100vh;
 }
+
 
 .wrapper {
   display: flex;
