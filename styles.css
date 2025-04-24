@@ -4,8 +4,8 @@ body {
     color: white;
     background-color: #D3D3D3;
     margin: 0;
-    padding: o;
-    higth: 100%;
+    padding: 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -293,7 +293,6 @@ main {
     max-width: 300px;
     margin: 0 auto;
 }
-/* 🌟 Page Header (Matches About Page) */
 .page-header {
     text-align: center;
     font-size: 40px;
@@ -304,7 +303,8 @@ main {
     text-transform: uppercase;
 }
 
-.news and updates-page {
+.news-and-updates-page {
+ 
   background: linear-gradient(to bottom, #ffffff, #f2f2f2);
   background-attachment: fixed;
 }
@@ -337,7 +337,7 @@ main {
 /* 🌟 Image */
 .news-item img {
     width: 150px; /* Set a fixed width */
-    height: 100PX
+    height: 100px;
     object-fit: cover;
     border-radius: 10px;
 
@@ -442,45 +442,6 @@ main {
   background: linear-gradient(to bottom, #ffffff, #f2f2f2);
   background-attachment: fixed;
 }
-
-
-.offices {
-  display: flex;
-  justify-content: space-between;
-  max-width: 800px;
-  margin: auto;
-  background-color:#D3D3D3;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.office {
-  flex: 1;
-  min-width: 300px;
-}
-
-.office h3 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;  
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.office p {
-  margin: 5px 0;
-  font-size: 16px;
-  color: #333;
-}
-
-.map {
-  margin-top: 15px;
-}
-
-}
-
-
-
 
 .feedback-page-body {
   background-color: linear-gradient(to bottom, #ffffff, #f2f2f2);
